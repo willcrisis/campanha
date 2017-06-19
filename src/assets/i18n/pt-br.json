@@ -1,0 +1,18 @@
+{
+  "appName": "Campanha de Louvor",
+  "hoje": "Hoje",
+  "diaDaSemana": {
+    "1": "Domingo",
+    "2": "Segunda-feira",
+    "3": "Terça-feira",
+    "4": "Quarta-feira",
+    "5": "Quinta-feira",
+    "6": "Sexta-feira",
+    "7": "Sábado"
+  },
+  "semanaAtributo": "{{semana}}ª Semana: {{tema}}",
+  "semana": "{{semana}}ª Semana",
+  "atributoDia": "Deus Pai, {{atributo}}",
+  "capitulo": "Capítulo {{capitulo}}",
+  "maisAtributos": "Mais Atributos"
+}

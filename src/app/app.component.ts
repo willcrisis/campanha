@@ -1,10 +1,10 @@
-import { Component, ViewChild } from '@angular/core';
-import { Nav, Platform } from 'ionic-angular';
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
-
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import {Component, ViewChild} from "@angular/core";
+import {Nav, Platform} from "ionic-angular";
+import {StatusBar} from "@ionic-native/status-bar";
+import {SplashScreen} from "@ionic-native/splash-screen";
+import {HomePage} from "../pages/home/home";
+import {TranslateService} from "@ngx-translate/core";
+import {MaisAtributosPage} from "../pages/mais-atributos/mais-atributos";
 
 @Component({
   templateUrl: 'app.html'
@@ -16,13 +16,18 @@ export class MyApp {
 
   pages: Array<{title: string, component: any}>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform,
+              public statusBar: StatusBar,
+              public splashScreen: SplashScreen,
+              private translateService: TranslateService) {
+    translateService.setDefaultLang('pt-br');
+    translateService.use('pt-br');
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'hoje', component: HomePage },
+      { title: 'maisAtributos', component: MaisAtributosPage }
     ];
 
   }
