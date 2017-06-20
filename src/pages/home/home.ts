@@ -30,7 +30,7 @@ export class HomePage {
     this.campanha.getSemana(semana).subscribe(semana => {
       this.semana = semana;
     });
-    this.campanha.get(this.dia, semana).subscribe(atributo => {
+    this.campanha.get(semana, this.dia).subscribe(atributo => {
       this.atributo = atributo;
     });
   }

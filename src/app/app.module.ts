@@ -3,7 +3,6 @@ import {ErrorHandler, NgModule} from "@angular/core";
 import {IonicApp, IonicErrorHandler, IonicModule} from "ionic-angular";
 import {MyApp} from "./app.component";
 import {HomePage} from "../pages/home/home";
-import {ListPage} from "../pages/list/list";
 import {StatusBar} from "@ionic-native/status-bar";
 import {SplashScreen} from "@ionic-native/splash-screen";
 import {CampanhaProvider} from "../providers/campanha/campanha";
@@ -17,7 +16,6 @@ import {MaisAtributosPage} from "../pages/mais-atributos/mais-atributos";
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
     MaisAtributosPage
   ],
   imports: [
@@ -36,7 +34,6 @@ import {MaisAtributosPage} from "../pages/mais-atributos/mais-atributos";
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,
     MaisAtributosPage
   ],
   providers: [

@@ -25,7 +25,8 @@ export class MaisAtributosPage {
   }
 
   selecionar(semana: number, dia: number) {
-    console.log('oi');
+    console.log(semana);
+    console.log(dia);
     this.navCtrl.push(HomePage, {semana: semana, dia: dia});
   }
 }
