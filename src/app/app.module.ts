@@ -11,12 +11,15 @@ import {CalculaDiaProvider} from "../providers/calcula-dia/calcula-dia";
 import {TranslateModule, TranslateLoader} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {MaisAtributosPage} from "../pages/mais-atributos/mais-atributos";
+import {MenuAcaoPage} from "../pages/menu-acao/menu-acao";
+import {SocialSharing} from "@ionic-native/social-sharing";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    MaisAtributosPage
+    MaisAtributosPage,
+    MenuAcaoPage
   ],
   imports: [
     BrowserModule,
@@ -34,14 +37,16 @@ import {MaisAtributosPage} from "../pages/mais-atributos/mais-atributos";
   entryComponents: [
     MyApp,
     HomePage,
-    MaisAtributosPage
+    MaisAtributosPage,
+    MenuAcaoPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     CampanhaProvider,
-    CalculaDiaProvider
+    CalculaDiaProvider,
+    SocialSharing
   ]
 })
 export class AppModule {}

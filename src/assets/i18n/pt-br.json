@@ -14,5 +14,6 @@
   "semana": "{{semana}}ª Semana",
   "atributoDia": "Deus Pai, {{atributo}}",
   "capitulo": "Capítulo {{capitulo}}",
-  "maisAtributos": "Mais Atributos"
+  "maisAtributos": "Mais Atributos",
+  "compartilhar": "Compartilhar"
 }

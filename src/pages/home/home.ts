@@ -1,7 +1,8 @@
 import {Component} from "@angular/core";
-import {NavController, NavParams} from "ionic-angular";
+import {NavController, NavParams, PopoverController} from "ionic-angular";
 import {CampanhaProvider} from "../../providers/campanha/campanha";
 import {CalculaDiaProvider} from "../../providers/calcula-dia/calcula-dia";
+import {MenuAcaoPage} from "../menu-acao/menu-acao";
 
 @Component({
   selector: 'page-home',
@@ -16,7 +17,7 @@ export class HomePage {
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               private campanha: CampanhaProvider,
-              private calculaDia: CalculaDiaProvider) {
+              private calculaDia: CalculaDiaProvider, private popoverCtrl: PopoverController) {
     let dia = this.navParams.get('dia');
     let semana = this.navParams.get('semana');
     if (dia && semana) {
@@ -35,4 +36,8 @@ export class HomePage {
     });
   }
 
+  abrirMenuAcao(evento) {
+    let popover = this.popoverCtrl.create(MenuAcaoPage, {texto: 'Teste'});
+    popover.present({ev: evento});
+  }
 }
