@@ -15,18 +15,59 @@ import {HomePage} from "../home/home";
 })
 export class MaisAtributosPage {
 
-  public dados: any[] = [];
+  dados: any[] = [];
+  listaFiltrada: any[] = [];
+  pesquisa = '';
 
   constructor(public navCtrl: NavController,
               private campanha: CampanhaProvider) {
     this.campanha.list().subscribe(dados => {
       this.dados = dados;
+      this.listaFiltrada = this.dados;
     });
   }
 
   selecionar(semana: number, dia: number) {
-    console.log(semana);
-    console.log(dia);
     this.navCtrl.push(HomePage, {semana: semana, dia: dia});
+  }
+
+  pesquisar() {
+    let listaFiltrada: any[] = [];
+
+    this.dados.forEach(semana => {
+      let semanaClone = {...semana};
+      semanaClone.dias = [];
+      semana.dias.forEach(dia => {
+        let diaClone = {...dia};
+        diaClone.livros = [];
+        dia.livros.forEach(livro => {
+          let livroClone = {...livro};
+          livroClone.capitulos = [];
+          livro.capitulos.forEach(capitulo => {
+            let capituloClone = {...capitulo};
+            capituloClone.versiculos = [];
+            capitulo.versiculos.forEach(versiculo => {
+              if (versiculo.texto.indexOf(this.pesquisa) > -1) {
+                capituloClone.versiculos.push(versiculo);
+              }
+            });
+            if (capituloClone.versiculos.length > 0) {
+              livroClone.capitulos.push(capituloClone);
+            }
+          });
+          if (livroClone.capitulos.length > 0) {
+            diaClone.livros.push(livroClone);
+          }
+        });
+        if (diaClone.livros.length > 0) {
+          semanaClone.dias.push(diaClone);
+        }
+      });
+      if (semanaClone.dias.length > 0) {
+        listaFiltrada.push(semanaClone);
+      }
+    });
+
+    this.listaFiltrada = listaFiltrada;
   }
 }
