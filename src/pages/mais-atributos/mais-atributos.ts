@@ -32,15 +32,28 @@ export class MaisAtributosPage {
   }
 
   pesquisar() {
+    if (this.pesquisa.length === 0) {
+      this.listaFiltrada = this.dados;
+      return;
+    }
+
     let listaFiltrada: any[] = [];
 
     this.dados.forEach(semana => {
       let semanaClone = {...semana};
       semanaClone.dias = [];
       semana.dias.forEach(dia => {
+        if (dia.atributo.toLowerCase().indexOf(this.pesquisa.toLowerCase()) > -1) {
+          semanaClone.dias.push(dia);
+          return;
+        }
         let diaClone = {...dia};
         diaClone.livros = [];
         dia.livros.forEach(livro => {
+          if (livro.nome.toLowerCase().indexOf(this.pesquisa) > -1) {
+            diaClone.livros.push(livro);
+            return;
+          }
           let livroClone = {...livro};
           livroClone.capitulos = [];
           livro.capitulos.forEach(capitulo => {
