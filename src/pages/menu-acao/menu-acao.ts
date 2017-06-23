@@ -33,7 +33,8 @@ export class MenuAcaoPage {
       'semanaAtributo',
       'diaDaSemana.' + this.dia,
       'atributoDia',
-      'capitulo'
+      'capitulo',
+      'linkDownload'
     ], {
       semana: this.semana.id,
       tema: this.semana.tema,
@@ -57,7 +58,7 @@ export class MenuAcaoPage {
           texto += QUEBRA_LINHA;
         });
       });
-      texto += 'Obtenha o aplicativo da Campanha de Louvor. \nAcesse: https://github.com/willcrisis/campanha';
+      texto += translations.linkDownload;
 
       const opcoes = {
         message: texto
