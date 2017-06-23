@@ -37,7 +37,7 @@ export class HomePage {
   }
 
   abrirMenuAcao(evento) {
-    let popover = this.popoverCtrl.create(MenuAcaoPage, {texto: 'Teste'});
+    let popover = this.popoverCtrl.create(MenuAcaoPage, {atributo: this.atributo, semana: this.semana, dia: this.dia});
     popover.present({ev: evento});
   }
 }

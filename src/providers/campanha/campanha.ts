@@ -15,7 +15,7 @@ export class CampanhaProvider {
   private data: Observable<any[]>;
 
   constructor(public http: Http) {
-    this.data = this.http.get('assets/data/campanha.json').map(res => res.json());
+    this.data = this.http.get('assets/data/pt-br.json').map(res => res.json());
   }
 
   public list() {

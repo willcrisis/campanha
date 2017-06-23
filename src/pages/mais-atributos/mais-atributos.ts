@@ -50,7 +50,7 @@ export class MaisAtributosPage {
         let diaClone = {...dia};
         diaClone.livros = [];
         dia.livros.forEach(livro => {
-          if (livro.nome.toLowerCase().indexOf(this.pesquisa) > -1) {
+          if (livro.nome.toLowerCase().indexOf(this.pesquisa.toLowerCase()) > -1) {
             diaClone.livros.push(livro);
             return;
           }
@@ -60,7 +60,7 @@ export class MaisAtributosPage {
             let capituloClone = {...capitulo};
             capituloClone.versiculos = [];
             capitulo.versiculos.forEach(versiculo => {
-              if (versiculo.texto.indexOf(this.pesquisa) > -1) {
+              if (versiculo.texto.toLowerCase().indexOf(this.pesquisa.toLowerCase()) > -1) {
                 capituloClone.versiculos.push(versiculo);
               }
             });
