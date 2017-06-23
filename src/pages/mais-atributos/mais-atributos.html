@@ -16,7 +16,7 @@
 <ion-content padding>
   <ion-list>
     <ion-item>
-      <ion-input type="text" placeholder="Pesquisar" [(ngModel)]="pesquisa" (keyup)="pesquisar()"></ion-input>
+      <ion-input type="text" placeholder="{{'pesquisar' | translate}}" [(ngModel)]="pesquisa" (keyup)="pesquisar()"></ion-input>
     </ion-item>
   </ion-list>
   <ion-list *ngFor="let item of listaFiltrada">

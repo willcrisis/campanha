@@ -13,13 +13,15 @@ import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {MaisAtributosPage} from "../pages/mais-atributos/mais-atributos";
 import {MenuAcaoPage} from "../pages/menu-acao/menu-acao";
 import {SocialSharing} from "@ionic-native/social-sharing";
+import {SobrePage} from "../pages/sobre/sobre";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     MaisAtributosPage,
-    MenuAcaoPage
+    MenuAcaoPage,
+    SobrePage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ import {SocialSharing} from "@ionic-native/social-sharing";
     MyApp,
     HomePage,
     MaisAtributosPage,
-    MenuAcaoPage
+    MenuAcaoPage,
+    SobrePage
   ],
   providers: [
     StatusBar,

@@ -5,6 +5,7 @@ import {SplashScreen} from "@ionic-native/splash-screen";
 import {HomePage} from "../pages/home/home";
 import {TranslateService} from "@ngx-translate/core";
 import {MaisAtributosPage} from "../pages/mais-atributos/mais-atributos";
+import {SobrePage} from "../pages/sobre/sobre";
 
 @Component({
   templateUrl: 'app.html'
@@ -27,7 +28,8 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'hoje', component: HomePage },
-      { title: 'maisAtributos', component: MaisAtributosPage }
+      { title: 'maisAtributos', component: MaisAtributosPage },
+      { title: 'sobre', component: SobrePage }
     ];
 
   }

@@ -15,5 +15,11 @@
   "atributoDia": "Deus Pai, {{atributo}}",
   "capitulo": "Capítulo {{capitulo}}",
   "maisAtributos": "Mais Atributos",
-  "compartilhar": "Compartilhar"
+  "compartilhar": "Compartilhar",
+  "sobre": "Sobre",
+  "pesquisar": "Pesquisar",
+  "versao": "Versão 2.0.0",
+  "autor": "Aplicativo desenvolvido por Willian Krause",
+  "aviso1": "Este aplicativo tem como objetivo facilitar o hábito de fazer a Campanha de Louvor, não devendo ser usado como substituto para o hábito de leitura da Bíblia.",
+  "aviso2": "Jesus está voltando. Leia a Bíblia."
 }
