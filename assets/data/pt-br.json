@@ -1,0 +1,1970 @@
+[
+  {
+    "id": 1,
+    "tema": "O Amor de Deus",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "Tu és Amor",
+        "textos": "Jr 31.3 e IJo 4.7 e 8",
+        "livros": [
+          {
+            "nome": "Jeremias",
+            "capitulos": [
+              {
+                "id": "31",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "De longe se me deixou ver o SENHOR, dizendo: Com amor eterno eu te amei; por isso, com benignidade te atraí."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "I João",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "Amados, amemo-nos uns aos outros, porque o amor procede de Deus; e todo aquele que ama é nascido de Deus e conhece a Deus."
+                  },
+                  {
+                    "id": "8",
+                    "texto": "Aquele que não ama não conhece a Deus, pois Deus é amor."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "Tu és Eterno",
+        "textos": "Is 26.4 e ITm 1.17",
+        "livros": [
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "26",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "Confiai no SENHOR perpetuamente, porque o SENHOR Deus é uma rocha eterna;"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "I Timóteo",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "Assim, ao Rei eterno, imortal, invisível, Deus único, honra e glória pelos séculos dos séculos. Amém!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "Tu estás Presente",
+        "textos": "Dt 20.1 e 4 e Is 45.2 e 3",
+        "livros": [
+          {
+            "nome": "Deuteronômio",
+            "capitulos": [
+              {
+                "id": "20",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Quando saíres à peleja contra os teus inimigos e vires cavalos, e carros, e povo maior em número do que tu, não os temerás; pois o SENHOR, teu Deus, que te fez sair da terra do Egito, está contigo."
+                  },
+                  {
+                    "id": "4",
+                    "texto": "pois o SENHOR, vosso Deus, é quem vai convosco a pelejar por vós contra os vossos inimigos, para vos salvar."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "45",
+                "versiculos": [
+                  {
+                    "id": "2",
+                    "texto": "Eu irei adiante de ti, endireitarei os caminhos tortuosos, quebrarei as portas de bronze e despedaçarei as trancas de ferro;"
+                  },
+                  {
+                    "id": "3",
+                    "texto": "dar-te-ei os tesouros escondidos e as riquezas encobertas, para que saibas que eu sou o SENHOR, o Deus de Israel, que te chama pelo teu nome."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "Tu és Singular",
+        "textos": "Is 46.9 e 10 e Cl 1.17 e 18",
+        "livros": [
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "46",
+                "versiculos": [
+                  {
+                    "id": "9",
+                    "texto": "Lembrai-vos das coisas passadas da antiguidade: que eu sou Deus, e não há outro, eu sou Deus, e não há outro semelhante a mim;"
+                  },
+                  {
+                    "id": "10",
+                    "texto": "que desde o princípio anuncio o que há de acontecer e desde a antiguidade, as coisas que ainda não sucederam; que digo: o meu conselho permanecerá de pé, farei toda a minha vontade;"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Colossenses",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "Ele é antes de todas as coisas. Nele, tudo subsiste."
+                  },
+                  {
+                    "id": "18",
+                    "texto": "Ele é a cabeça do corpo, da igreja. Ele é o princípio, o primogênito de entre os mortos, para em todas as coisas ter a primazia,"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "Tu és Imaculado",
+        "textos": "Hb 4.14 a 16",
+        "livros": [
+          {
+            "nome": "Hebreus",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "14",
+                    "texto": "Tendo, pois, a Jesus, o Filho de Deus, como grande sumo sacerdote que penetrou os céus, conservemos firmes a nossa confissão."
+                  },
+                  {
+                    "id": "15",
+                    "texto": "Porque não temos sumo sacerdote que não possa compadecer-se das nossas fraquezas; antes, foi ele tentado em todas as coisas, à nossa semelhança, mas sem pecado."
+                  },
+                  {
+                    "id": "16",
+                    "texto": "Acheguemo-nos, portanto, confiadamente, junto ao trono da graça, a fim de recebermos misericórdia e acharmos graça para socorro em ocasião oportuna."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "Tu és Glorioso",
+        "textos": "ICr 29.12 e 13 e Is 63.1",
+        "livros": [
+          {
+            "nome": "1 Crônicas",
+            "capitulos": [
+              {
+                "id": "29",
+                "versiculos": [
+                  {
+                    "id": "12",
+                    "texto": "Riquezas e glória vêm de ti, tu dominas sobre tudo, na tua mão há força e poder; contigo está o engrandecer e a tudo dar força."
+                  },
+                  {
+                    "id": "13",
+                    "texto": "Agora, pois, ó nosso Deus, graças te damos e louvamos o teu glorioso nome."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "63",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Quem é este que vem de Edom, de Bozra, com vestes de vivas cores, que é glorioso em sua vestidura, que marcha na plenitude da sua força? Sou eu que falo em justiça, poderoso para salvar."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "Tu és Grandioso",
+        "textos": "2Sm 7.22 e Ef 1.18 e 19",
+        "livros": [
+          {
+            "nome": "2 Samuel",
+            "capitulos": [
+              {
+                "id": "7",
+                "versiculos": [
+                  {
+                    "id": "22",
+                    "texto": "Portanto, grandíssimo és, ó SENHOR Deus, porque não há semelhante a ti, e não há outro Deus além de ti, segundo tudo o que nós mesmos temos ouvido."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Efésios",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "18",
+                    "texto": "iluminados os olhos do vosso coração, para saberdes qual é a esperança do seu chamamento, qual a riqueza da glória da sua herança nos santos"
+                  },
+                  {
+                    "id": "19",
+                    "texto": "e qual a suprema grandeza do seu poder para com os que cremos, segundo a eficácia da força do seu poder;"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tema": "A Santidade de Deus",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "Tu és Santo",
+        "textos": "Is 57.15 e Ap 15.4",
+        "livros": [
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "57",
+                "versiculos": [
+                  {
+                    "id": "15",
+                    "texto": "Porque assim diz o Alto, o Sublime, que habita a eternidade, o qual tem o nome de Santo: Habito no alto e santo lugar, mas habito também com o contrito e abatido de espírito, para vivificar o espírito dos abatidos e vivificar o coração dos contritos."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Apocalipse",
+            "capitulos": [
+              {
+                "id": "15",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "Quem não temerá e não glorificará o teu nome, ó Senhor? Pois só tu és santo; por isso, todas as nações virão e adorarão diante de ti, porque os teus atos de justiça se fizeram manifestos."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "Tu és Excelso",
+        "textos": "Is 12.4 e 2Pe 1.17",
+        "livros": [
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "12",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "Direis naquele dia: Dai graças ao SENHOR, invocai o seu nome, tornai manifestos os seus feitos entre os povos, relembrai que é excelso o seu nome."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Pedro",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "pois ele recebeu, da parte de Deus Pai, honra e glória, quando pela Glória Excelsa lhe foi enviada a seguinte voz: Este é o meu Filho amado, em quem me comprazo."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "Tu és Digno de Toda Confiança",
+        "textos": "Sl 40.1 e 2 e Hb 13.5 e 6",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "40",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Esperei confiantemente pelo SENHOR; ele se inclinou para mim e me ouviu quando clamei por socorro."
+                  },
+                  {
+                    "id": "2",
+                    "texto": "Tirou-me de um poço de perdição, de um tremedal de lama; colocou-me os pés sobre uma rocha e me firmou os passos."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Hebreus",
+            "capitulos": [
+              {
+                "id": "13",
+                "versiculos": [
+                  {
+                    "id": "5",
+                    "texto": "Seja a vossa vida sem avareza. Contentai-vos com as coisas que tendes; porque ele tem dito: De maneira alguma te deixarei, nunca jamais te abandonarei."
+                  },
+                  {
+                    "id": "6",
+                    "texto": "Assim, afirmemos confiantemente: O Senhor é o meu auxílio, não temerei; que me poderá fazer o homem?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "Tu és Forte",
+        "textos": "Sl 10.17 e Ef 6.10 e 11",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "10",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "Tens ouvido, SENHOR, o desejo dos humildes; tu lhes fortalecerás o coração e lhes acudirás,"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Efésios",
+            "capitulos": [
+              {
+                "id": "6",
+                "versiculos": [
+                  {
+                    "id": "10",
+                    "texto": "Quanto ao mais, sede fortalecidos no Senhor e na força do seu poder."
+                  },
+                  {
+                    "id": "11",
+                    "texto": "Revesti-vos de toda a armadura de Deus, para poderdes ficar firmes contra as ciladas do diabo;"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "Tu Possuis Suficiência",
+        "textos": "Fp 4.19 e Jo 15.5",
+        "livros": [
+          {
+            "nome": "Filipenses",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "19",
+                    "texto": "E o meu Deus, segundo a sua riqueza em glória, há de suprir, em Cristo Jesus, cada uma de vossas necessidades."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "João",
+            "capitulos": [
+              {
+                "id": "15",
+                "versiculos": [
+                  {
+                    "id": "5",
+                    "texto": "Eu sou a videira, vós, os ramos. Quem permanece em mim, e eu, nele, esse dá muito fruto; porque sem mim nada podeis fazer."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "Tu és Incomensurável",
+        "textos": "Is 40.26 a 28 e 31",
+        "livros": [
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "40",
+                "versiculos": [
+                  {
+                    "id": "26",
+                    "texto": "Levantai ao alto os olhos e vede. Quem criou estas coisas? Aquele que faz sair o seu exército de estrelas, todas bem contadas, as quais ele chama pelo nome; por ser ele grande em força e forte em poder, nem uma só vem a faltar."
+                  },
+                  {
+                    "id": "27",
+                    "texto": "Por que, pois, dizes, ó Jacó, e falas, ó Israel: O meu caminho está encoberto ao SENHOR, e o meu direito passa despercebido ao meu Deus?"
+                  },
+                  {
+                    "id": "28",
+                    "texto": "Não sabes, não ouviste que o eterno Deus, o SENHOR, o Criador dos fins da terra, nem se cansa, nem se fatiga? Não se pode esquadrinhar o seu entendimento."
+                  },
+                  {
+                    "id": "31",
+                    "texto": "mas os que esperam no SENHOR renovam as suas forças, sobem com asas como águias, correm e não se cansam, caminham e não se fatigam."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "Tu és Sábio",
+        "textos": "Mc 6.2 e Tg 3.17",
+        "livros": [
+          {
+            "nome": "Marcos",
+            "capitulos": [
+              {
+                "id": "6",
+                "versiculos": [
+                  {
+                    "id": "2",
+                    "texto": "Chegando o sábado, passou a ensinar na sinagoga; e muitos, ouvindo-o, se maravilhavam, dizendo: Donde vêm a este estas coisas? Que sabedoria é esta que lhe foi dada? E como se fazem tais maravilhas por suas mãos?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Thiago",
+            "capitulos": [
+              {
+                "id": "3",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "A sabedoria, porém, lá do alto é, primeiramente, pura; depois, pacífica, indulgente, tratável, plena de misericórdia e de bons frutos, imparcial, sem fingimento."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tema": "A Majestade de Deus",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "Tu és Majestoso",
+        "textos": "ICr 29.11 e 12 e 2Pe 1.16 e 17",
+        "livros": [
+          {
+            "nome": "1 Crônicas",
+            "capitulos": [
+              {
+                "id": "29",
+                "versiculos": [
+                  {
+                    "id": "11",
+                    "texto": "Teu, SENHOR, é o poder, a grandeza, a honra, a vitória e a majestade; porque teu é tudo quanto há nos céus e na terra; teu, SENHOR, é o reino, e tu te exaltaste por chefe sobre todos."
+                  },
+                  {
+                    "id": "12",
+                    "texto": "Riquezas e glória vêm de ti, tu dominas sobre tudo, na tua mão há força e poder; contigo está o engrandecer e a tudo dar força."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Pedro",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "16",
+                    "texto": "Porque não vos demos a conhecer o poder e a vinda de nosso Senhor Jesus Cristo seguindo fábulas engenhosamente inventadas, mas nós mesmos fomos testemunhas oculares da sua majestade,"
+                  },
+                  {
+                    "id": "17",
+                    "texto": "pois ele recebeu, da parte de Deus Pai, honra e glória, quando pela Glória Excelsa lhe foi enviada a seguinte voz: Este é o meu Filho amado, em quem me comprazo."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "Tu és Criador",
+        "textos": "Jr 51.19 e Cl 1.15 a 17",
+        "livros": [
+          {
+            "nome": "Jeremias",
+            "capitulos": [
+              {
+                "id": "51",
+                "versiculos": [
+                  {
+                    "id": "19",
+                    "texto": "Não é semelhante a estas aquele que é a Porção de Jacó; porque ele é o criador de todas as coisas, e Israel é a tribo da sua herança; SENHOR dos Exércitos é o seu nome."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Colossenses",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "15",
+                    "texto": "Este é a imagem do Deus invisível, o primogênito de toda a criação;"
+                  },
+                  {
+                    "id": "16",
+                    "texto": "pois, nele, foram criadas todas as coisas, nos céus e sobre a terra, as visíveis e as invisíveis, sejam tronos, sejam soberanias, quer principados, quer potestades. Tudo foi criado por meio dele e para ele."
+                  },
+                  {
+                    "id": "17",
+                    "texto": "Ele é antes de todas as coisas. Nele, tudo subsiste."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "Tu estás ao nosso Alcance",
+        "textos": "Sl 34.18 e 19 e Sl 119.151 e 152",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "34",
+                "versiculos": [
+                  {
+                    "id": "18",
+                    "texto": "Perto está o SENHOR dos que têm o coração quebrantado e salva os de espírito oprimido."
+                  },
+                  {
+                    "id": "19",
+                    "texto": "Muitas são as aflições do justo, mas o SENHOR de todas o livra."
+                  }
+                ]
+              },
+              {
+                "id": "119",
+                "versiculos": [
+                  {
+                    "id": "151",
+                    "texto": "Tu estás perto, SENHOR, e todos os teus mandamentos são verdade."
+                  },
+                  {
+                    "id": "152",
+                    "texto": "Quanto às tuas prescrições, há muito sei que as estabeleceste para sempre."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "Tu és Tremendo",
+        "textos": "Sl 47.2 e Sl 68.35",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "47",
+                "versiculos": [
+                  {
+                    "id": "2",
+                    "texto": "Pois o SENHOR Altíssimo é tremendo, é o grande rei de toda a terra."
+                  }
+                ]
+              },
+              {
+                "id": "68",
+                "versiculos": [
+                  {
+                    "id": "35",
+                    "texto": "Ó Deus, tu és tremendo nos teus santuários; o Deus de Israel, ele dá força e poder ao povo. Bendito seja Deus!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "Tu és Constante",
+        "textos": "Sl 9.7 e 8 e Sl 89.33 e 34",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "9",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "Mas o SENHOR permanece no seu trono eternamente, trono que erigiu para julgar."
+                  },
+                  {
+                    "id": "8",
+                    "texto": "Ele mesmo julga o mundo com justiça; administra os povos com retidão."
+                  }
+                ]
+              },
+              {
+                "id": "89",
+                "versiculos": [
+                  {
+                    "id": "33",
+                    "texto": "Mas jamais retirarei dele a minha bondade, nem desmentirei a minha fidelidade."
+                  },
+                  {
+                    "id": "34",
+                    "texto": "Não violarei a minha aliança, nem modificarei o que os meus lábios proferiram."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "Tu és Generoso",
+        "textos": "Sl 115.12 a 14 e Tg 1.5 e 6",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "115",
+                "versiculos": [
+                  {
+                    "id": "12",
+                    "texto": "De nós se tem lembrado o SENHOR; ele nos abençoará; abençoará a casa de Israel, abençoará a casa de Arão."
+                  },
+                  {
+                    "id": "13",
+                    "texto": "Ele abençoa os que temem o SENHOR, tanto pequenos como grandes."
+                  },
+                  {
+                    "id": "14",
+                    "texto": "O SENHOR vos aumente bênçãos mais e mais, sobre vós e sobre vossos filhos."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Thiago",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "5",
+                    "texto": "Se, porém, algum de vós necessita de sabedoria, peça-a a Deus, que a todos dá liberalmente e nada lhes impropera; e ser-lhe-á concedida."
+                  },
+                  {
+                    "id": "6",
+                    "texto": "Peça-a, porém, com fé, em nada duvidando; pois o que duvida é semelhante à onda do mar, impelida e agitada pelo vento."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "Tu és Capaz",
+        "textos": "Hb 7.25 e IJo 2.1 e 2",
+        "livros": [
+          {
+            "nome": "Hebreus",
+            "capitulos": [
+              {
+                "id": "7",
+                "versiculos": [
+                  {
+                    "id": "25",
+                    "texto": "Por isso, também pode salvar totalmente os que por ele se chegam a Deus, vivendo sempre para interceder por eles."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "1 João",
+            "capitulos": [
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Filhinhos meus, estas coisas vos escrevo para que não pequeis. Se, todavia, alguém pecar, temos Advogado junto ao Pai, Jesus Cristo, o Justo;"
+                  },
+                  {
+                    "id": "2",
+                    "texto": "e ele é a propiciação pelos nossos pecados e não somente pelos nossos próprios, mas ainda pelos do mundo inteiro."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tema": "A Justiça de Deus",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "Tu és Justo",
+        "textos": "Sl 119.137 e 138 e IJo 2.1",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "119",
+                "versiculos": [
+                  {
+                    "id": "137",
+                    "texto": "Justo és, SENHOR, e retos, os teus juízos."
+                  },
+                  {
+                    "id": "138",
+                    "texto": "Os teus testemunhos, tu os impuseste com retidão e com suma fidelidade."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "1 João",
+            "capitulos": [
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Filhinhos meus, estas coisas vos escrevo para que não pequeis. Se, todavia, alguém pecar, temos Advogado junto ao Pai, Jesus Cristo, o Justo;"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "Tu és Invencível",
+        "textos": "Jo 16.33 e Rm 8.37",
+        "livros": [
+          {
+            "nome": "João",
+            "capitulos": [
+              {
+                "id": "16",
+                "versiculos": [
+                  {
+                    "id": "33",
+                    "texto": "Estas coisas vos tenho dito para que tenhais paz em mim. No mundo, passais por aflições; mas tende bom ânimo; eu venci o mundo."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Romanos",
+            "capitulos": [
+              {
+                "id": "8",
+                "versiculos": [
+                  {
+                    "id": "37",
+                    "texto": "Em todas estas coisas, porém, somos mais que vencedores, por meio daquele que nos amou."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "Tu és Belo",
+        "textos": "Sl 27.4 e Sl 96.9",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "27",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "Uma coisa peço ao SENHOR, e a buscarei: que eu possa morar na Casa do SENHOR todos os dias da minha vida, para contemplar a beleza do SENHOR e meditar no seu templo."
+                  }
+                ]
+              },
+              {
+                "id": "96",
+                "versiculos": [
+                  {
+                    "id": "9",
+                    "texto": "Adorai o SENHOR na beleza da sua santidade; tremei diante dele, todas as terras."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "Tu és Perfeito",
+        "textos": "Mt 5.48 e Hb 7.28",
+        "livros": [
+          {
+            "nome": "Mateus",
+            "capitulos": [
+              {
+                "id": "5",
+                "versiculos": [
+                  {
+                    "id": "48",
+                    "texto": "Portanto, sede vós perfeitos como perfeito é o vosso Pai celeste."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Hebreus",
+            "capitulos": [
+              {
+                "id": "7",
+                "versiculos": [
+                  {
+                    "id": "28",
+                    "texto": "Porque a lei constitui sumos sacerdotes a homens sujeitos à fraqueza, mas a palavra do juramento, que foi posterior à lei, constitui o Filho, perfeito para sempre."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "Tu responde quando Clamamos",
+        "textos": "Sl 57.1 a 3 e Mt 7.7 e 8",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "57",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Tem misericórdia de mim, ó Deus, tem misericórdia, pois em ti a minha alma se refugia; à sombra das tuas asas me abrigo, até que passem as calamidades."
+                  },
+                  {
+                    "id": "2",
+                    "texto": "Clamarei ao Deus Altíssimo, ao Deus que por mim tudo executa."
+                  },
+                  {
+                    "id": "3",
+                    "texto": "Ele dos céus me envia o seu auxílio e me livra; cobre de vergonha os que me ferem. Envia a sua misericórdia e a sua fidelidade."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Mateus",
+            "capitulos": [
+              {
+                "id": "7",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "Pedi, e dar-se-vos-á; buscai e achareis; batei, e abrir-se-vos-á."
+                  },
+                  {
+                    "id": "8",
+                    "texto": "Pois todo o que pede recebe; o que busca encontra; e, a quem bate, abrir-se-lhe-á."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "Tu és Imutável",
+        "textos": "Sl 102.25 a 27 e Hb 13.8",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "102",
+                "versiculos": [
+                  {
+                    "id": "25",
+                    "texto": "Em tempos remotos, lançaste os fundamentos da terra; e os céus são obras das tuas mãos."
+                  },
+                  {
+                    "id": "26",
+                    "texto": "Eles perecerão, mas tu permaneces; todos eles envelhecerão como uma veste, como roupa os mudarás, e serão mudados."
+                  },
+                  {
+                    "id": "27",
+                    "texto": "Tu, porém, és sempre o mesmo, e os teus anos jamais terão fim."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Hebreus",
+            "capitulos": [
+              {
+                "id": "13",
+                "versiculos": [
+                  {
+                    "id": "8",
+                    "texto": "Jesus Cristo, ontem e hoje, é o mesmo e o será para sempre."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "Tu és Perdoador",
+        "textos": "Sl 103.3, 8 a 12",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "103",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "Ele é quem perdoa todas as tuas iniqüidades; quem sara todas as tuas enfermidades;"
+                  },
+                  {
+                    "id": "8",
+                    "texto": "O SENHOR é misericordioso e compassivo; longânimo e assaz benigno."
+                  },
+                  {
+                    "id": "9",
+                    "texto": "Não repreende perpetuamente, nem conserva para sempre a sua ira."
+                  },
+                  {
+                    "id": "10",
+                    "texto": "Não nos trata segundo os nossos pecados, nem nos retribui consoante as nossas iniqüidades."
+                  },
+                  {
+                    "id": "11",
+                    "texto": "Pois quanto o céu se alteia acima da terra, assim é grande a sua misericórdia para com os que o temem."
+                  },
+                  {
+                    "id": "12",
+                    "texto": "Quanto dista o Oriente do Ocidente, assim afasta de nós as nossas transgressões."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "tema": "A Fidelidade de Deus",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "Tu és Fiel",
+        "textos": "Lm 3.22 e 23 e 2Ts 3.3",
+        "livros": [
+          {
+            "nome": "Lamentações",
+            "capitulos": [
+              {
+                "id": "3",
+                "versiculos": [
+                  {
+                    "id": "22",
+                    "texto": "As misericórdias do SENHOR são a causa de não sermos consumidos, porque as suas misericórdias não têm fim;"
+                  },
+                  {
+                    "id": "23",
+                    "texto": "renovam-se cada manhã. Grande é a tua fidelidade."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Tessalonicenses",
+            "capitulos": [
+              {
+                "id": "3",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "Todavia, o Senhor é fiel; ele vos confirmará e guardará do Maligno."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "Tu és Poderoso",
+        "textos": "Sl 89.7 e 8 e Jd 24 e 25",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "89",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "Deus é sobremodo tremendo na assembléia dos santos e temível sobre todos os que o rodeiam."
+                  },
+                  {
+                    "id": "8",
+                    "texto": "Ó SENHOR, Deus dos Exércitos, quem é poderoso como tu és, SENHOR, com a tua fidelidade ao redor de ti?!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Judas",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "24",
+                    "texto": "Ora, àquele que é poderoso para vos guardar de tropeços e para vos apresentar com exultação, imaculados diante da sua glória,"
+                  },
+                  {
+                    "id": "25",
+                    "texto": "ao único Deus, nosso Salvador, mediante Jesus Cristo, Senhor nosso, glória, majestade, império e soberania, antes de todas as eras, e agora, e por todos os séculos. Amém!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "Tu és Saúde",
+        "textos": "Jr 33.6 e Sl 147.1 a 3",
+        "livros": [
+          {
+            "nome": "Jeremias",
+            "capitulos": [
+              {
+                "id": "33",
+                "versiculos": [
+                  {
+                    "id": "6",
+                    "texto": "eis que lhe trarei a ela saúde e cura e os sararei; e lhes revelarei abundância de paz e segurança."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "147",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Louvai ao SENHOR, porque é bom e amável cantar louvores ao nosso Deus; fica-lhe bem o cântico de louvor."
+                  },
+                  {
+                    "id": "2",
+                    "texto": "O SENHOR edifica Jerusalém e congrega os dispersos de Israel;"
+                  },
+                  {
+                    "id": "3",
+                    "texto": "sara os de coração quebrantado e lhes pensa as feridas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "Tu és Segurança",
+        "textos": "Jó 11.18 e 19 e Sl 91.4 e 14",
+        "livros": [
+          {
+            "nome": "Jó",
+            "capitulos": [
+              {
+                "id": "11",
+                "versiculos": [
+                  {
+                    "id": "18",
+                    "texto": "Sentir-te-ás seguro, porque haverá esperança; olharás em derredor e dormirás tranqüilo."
+                  },
+                  {
+                    "id": "19",
+                    "texto": "Deitar-te-ás, e ninguém te espantará; e muitos procurarão obter o teu favor."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "91",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "Cobrir-te-á com as suas penas, e, sob suas asas, estarás seguro; a sua verdade é pavês e escudo."
+                  },
+                  {
+                    "id": "14",
+                    "texto": "Porque a mim se apegou com amor, eu o livrarei; pô-lo-ei a salvo, porque conhece o meu nome."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "Tu és Paz",
+        "textos": "Sl 119.165 e Is 9.6 e 7",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "119",
+                "versiculos": [
+                  {
+                    "id": "165",
+                    "texto": "Grande paz têm os que amam a tua lei; para eles não há tropeço."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "9",
+                "versiculos": [
+                  {
+                    "id": "6",
+                    "texto": "Porque um menino nos nasceu, um filho se nos deu; o governo está sobre os seus ombros; e o seu nome será: Maravilhoso Conselheiro, Deus Forte, Pai da Eternidade, Príncipe da Paz;"
+                  },
+                  {
+                    "id": "7",
+                    "texto": "para que se aumente o seu governo, e venha paz sem fim sobre o trono de Davi e sobre o seu reino, para o estabelecer e o firmar mediante o juízo e a justiça, desde agora e para sempre. O zelo do SENHOR dos Exércitos fará isto."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "Tu és Radioso",
+        "textos": "Sl 104.1 a 4 e Hb 1.3",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "104",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Bendize, ó minha alma, ao SENHOR! SENHOR, Deus meu, como tu és magnificente: sobrevestido de glória e majestade,"
+                  },
+                  {
+                    "id": "2",
+                    "texto": "coberto de luz como de um manto. Tu estendes o céu como uma cortina,"
+                  },
+                  {
+                    "id": "3",
+                    "texto": "pões nas águas o vigamento da tua morada, tomas as nuvens por teu carro e voas nas asas do vento."
+                  },
+                  {
+                    "id": "4",
+                    "texto": "Fazes a teus anjos ventos e a teus ministros, labaredas de fogo."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Hebreus",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "Ele, que é o resplendor da glória e a expressão exata do seu Ser, sustentando todas as coisas pela palavra do seu poder, depois de ter feito a purificação dos pecados, assentou-se à direita da Majestade, nas alturas,"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "Tu és Reto",
+        "textos": "Sl 92.15 e 2Tm 4.7 e 8",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "92",
+                "versiculos": [
+                  {
+                    "id": "15",
+                    "texto": "para anunciar que o SENHOR é reto. Ele é a minha rocha, e nele não há injustiça."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Timóteo",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "Combati o bom combate, completei a carreira, guardei a fé."
+                  },
+                  {
+                    "id": "8",
+                    "texto": "Já agora a coroa da justiça me está guardada, a qual o Senhor, reto juiz, me dará naquele Dia; e não somente a mim, mas também a todos quantos amam a sua vinda."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "tema": "A Misericórdia de Deus",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "Tu és Misericordioso",
+        "textos": "Tt 3.4 e 5 e 2Co 1.3 e 4",
+        "livros": [
+          {
+            "nome": "Tito",
+            "capitulos": [
+              {
+                "id": "3",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "Quando, porém, se manifestou a benignidade de Deus, nosso Salvador, e o seu amor para com todos,"
+                  },
+                  {
+                    "id": "5",
+                    "texto": "não por obras de justiça praticadas por nós, mas segundo sua misericórdia, ele nos salvou mediante o lavar regenerador e renovador do Espírito Santo,"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Coríntios",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai de misericórdias e Deus de toda consolação!"
+                  },
+                  {
+                    "id": "4",
+                    "texto": "É ele que nos conforta em toda a nossa tribulação, para podermos consolar os que estiverem em qualquer angústia, com a consolação com que nós mesmos somos contemplados por Deus."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "Tu és Alegria",
+        "textos": "Ne 8.10 e Is 35.10 e 61.3",
+        "livros": [
+          {
+            "nome": "Neemias",
+            "capitulos": [
+              {
+                "id": "8",
+                "versiculos": [
+                  {
+                    "id": "10",
+                    "texto": "Disse-lhes mais: ide, comei carnes gordas, tomai bebidas doces e enviai porções aos que não têm nada preparado para si; porque este dia é consagrado ao nosso Senhor; portanto, não vos entristeçais, porque a alegria do SENHOR é a vossa força."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "35",
+                "versiculos": [
+                  {
+                    "id": "10",
+                    "texto": "Os resgatados do SENHOR voltarão e virão a Sião com cânticos de júbilo; alegria eterna coroará a sua cabeça; gozo e alegria alcançarão, e deles fugirá a tristeza e o gemido."
+                  }
+                ]
+              },
+              {
+                "id": "61",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "e a pôr sobre os que em Sião estão de luto uma coroa em vez de cinzas, óleo de alegria, em vez de pranto, veste de louvor, em vez de espírito angustiado; a fim de que se chamem carvalhos de justiça, plantados pelo SENHOR para a sua glória."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "Tu és Compassivo",
+        "textos": "Sl 86.5 e 15 e Tg 5.11",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "86",
+                "versiculos": [
+                  {
+                    "id": "5",
+                    "texto": "Pois tu, Senhor, és bom e compassivo; abundante em benignidade para com todos os que te invocam."
+                  },
+                  {
+                    "id": "15",
+                    "texto": "Mas tu, Senhor, és Deus compassivo e cheio de graça, paciente e grande em misericórdia e em verdade."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Thiago",
+            "capitulos": [
+              {
+                "id": "5",
+                "versiculos": [
+                  {
+                    "id": "11",
+                    "texto": "Eis que temos por felizes os que perseveraram firmes. Tendes ouvido da paciência de Jó e vistes que fim o Senhor lhe deu; porque o Senhor é cheio de terna misericórdia e compassivo."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "Tu és Longânimo",
+        "textos": "Ex 34.6 e 2Pe 3.9",
+        "livros": [
+          {
+            "nome": "Êxodo",
+            "capitulos": [
+              {
+                "id": "34",
+                "versiculos": [
+                  {
+                    "id": "6",
+                    "texto": "E, passando o SENHOR por diante dele, clamou: SENHOR, SENHOR Deus compassivo, clemente e longânimo e grande em misericórdia e fidelidade;"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Pedro",
+            "capitulos": [
+              {
+                "id": "3",
+                "versiculos": [
+                  {
+                    "id": "9",
+                    "texto": "Não retarda o Senhor a sua promessa, como alguns a julgam demorada; pelo contrário, ele é longânimo para convosco, não querendo que nenhum pereça, senão que todos cheguem ao arrependimento."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "Tu és Maravilhoso",
+        "textos": "Jl 2.26 e Sl 77.13 e 14",
+        "livros": [
+          {
+            "nome": "Joel",
+            "capitulos": [
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "26",
+                    "texto": "Comereis abundantemente, e vos fartareis, e louvareis o nome do SENHOR, vosso Deus, que se houve maravilhosamente convosco; e o meu povo jamais será envergonhado."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "77",
+                "versiculos": [
+                  {
+                    "id": "13",
+                    "texto": "O teu caminho, ó Deus, é de santidade. Que deus é tão grande como o nosso Deus?"
+                  },
+                  {
+                    "id": "14",
+                    "texto": "Tu és o Deus que operas maravilhas e, entre os povos, tens feito notório o teu poder."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "Tu és Acessível",
+        "textos": "Mt 11.28 a 30 e Ef 2.17 e 18",
+        "livros": [
+          {
+            "nome": "Mateus",
+            "capitulos": [
+              {
+                "id": "11",
+                "versiculos": [
+                  {
+                    "id": "28",
+                    "texto": "Vinde a mim, todos os que estais cansados e sobrecarregados, e eu vos aliviarei."
+                  },
+                  {
+                    "id": "29",
+                    "texto": "Tomai sobre vós o meu jugo e aprendei de mim, porque sou manso e humilde de coração; e achareis descanso para a vossa alma."
+                  },
+                  {
+                    "id": "30",
+                    "texto": "Porque o meu jugo é suave, e o meu fardo é leve."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Efésios",
+            "capitulos": [
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "E, vindo, evangelizou paz a vós outros que estáveis longe e paz também aos que estavam perto;"
+                  },
+                  {
+                    "id": "18",
+                    "texto": "porque, por ele, ambos temos acesso ao Pai em um Espírito."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "Tu és Soberano",
+        "textos": "Dn 2.20 a 22",
+        "livros": [
+          {
+            "nome": "Daniel",
+            "capitulos": [
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "20",
+                    "texto": "Disse Daniel: Seja bendito o nome de Deus, de eternidade a eternidade, porque dele é a sabedoria e o poder;"
+                  },
+                  {
+                    "id": "21",
+                    "texto": "é ele quem muda o tempo e as estações, remove reis e estabelece reis; ele dá sabedoria aos sábios e entendimento aos inteligentes."
+                  },
+                  {
+                    "id": "22",
+                    "texto": "Ele revela o profundo e o escondido; conhece o que está em trevas, e com ele mora a luz."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "tema": "A Integridade de Deus",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "Tu és Verdadeiro",
+        "textos": "Jo 1.14 e 17 e IJo 5.20",
+        "livros": [
+          {
+            "nome": "João",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "14",
+                    "texto": "E o Verbo se fez carne e habitou entre nós, cheio de graça e de verdade, e vimos a sua glória, glória como do unigênito do Pai."
+                  },
+                  {
+                    "id": "17",
+                    "texto": "Porque a lei foi dada por intermédio de Moisés; a graça e a verdade vieram por meio de Jesus Cristo."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "1 João",
+            "capitulos": [
+              {
+                "id": "5",
+                "versiculos": [
+                  {
+                    "id": "20",
+                    "texto": "Também sabemos que o Filho de Deus é vindo e nos tem dado entendimento para reconhecermos o verdadeiro; e estamos no verdadeiro, em seu Filho, Jesus Cristo. Este é o verdadeiro Deus e a vida eterna."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "Tu és Conhecedor de todas as Coisas",
+        "textos": "Sl 139.1 a 4, 23 e 24",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "139",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "SENHOR, tu me sondas e me conheces."
+                  },
+                  {
+                    "id": "2",
+                    "texto": "Sabes quando me assento e quando me levanto; de longe penetras os meus pensamentos."
+                  },
+                  {
+                    "id": "3",
+                    "texto": "Esquadrinhas o meu andar e o meu deitar e conheces todos os meus caminhos."
+                  },
+                  {
+                    "id": "4",
+                    "texto": "Ainda a palavra me não chegou à língua, e tu, SENHOR, já a conheces toda."
+                  },
+                  {
+                    "id": "23",
+                    "texto": "Sonda-me, ó Deus, e conhece o meu coração, prova-me e conhece os meus pensamentos;"
+                  },
+                  {
+                    "id": "24",
+                    "texto": "vê se há em mim algum caminho mau e guia-me pelo caminho eterno."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "Tu és Conselheiro",
+        "textos": "Is 9.6 e Sl 32.8",
+        "livros": [
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "9",
+                "versiculos": [
+                  {
+                    "id": "6",
+                    "texto": "Porque um menino nos nasceu, um filho se nos deu; o governo está sobre os seus ombros; e o seu nome será: Maravilhoso Conselheiro, Deus Forte, Pai da Eternidade, Príncipe da Paz;"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "32",
+                "versiculos": [
+                  {
+                    "id": "8",
+                    "texto": "Instruir-te-ei e te ensinarei o caminho que deves seguir; e, sob as minhas vistas, te darei conselho."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "Tu és Completo",
+        "textos": "Cl 1.17 a 19 e Cl 2.9 e 10",
+        "livros": [
+          {
+            "nome": "Colossenses",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "Ele é antes de todas as coisas. Nele, tudo subsiste."
+                  },
+                  {
+                    "id": "18",
+                    "texto": "Ele é a cabeça do corpo, da igreja. Ele é o princípio, o primogênito de entre os mortos, para em todas as coisas ter a primazia,"
+                  },
+                  {
+                    "id": "19",
+                    "texto": "porque aprouve a Deus que, nele, residisse toda a plenitude"
+                  }
+                ]
+              },
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "9",
+                    "texto": "porquanto, nele, habita, corporalmente, toda a plenitude da Divindade."
+                  },
+                  {
+                    "id": "10",
+                    "texto": "Também, nele, estais aperfeiçoados. Ele é o cabeça de todo principado e potestade."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "Tu és Cheio de Graça",
+        "textos": "Hb 4.16 e IPe 4.10",
+        "livros": [
+          {
+            "nome": "Hebreus",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "16",
+                    "texto": "Acheguemo-nos, portanto, confiadamente, junto ao trono da graça, a fim de recebermos misericórdia e acharmos graça para socorro em ocasião oportuna."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "1 Pedro",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "10",
+                    "texto": "Servi uns aos outros, cada um conforme o dom que recebeu, como bons despenseiros da multiforme graça de Deus."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "Tu és Vitorioso",
+        "textos": "Sl 60.11 e 12 e Is 54.14 a 17",
+        "livros": [
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "60",
+                "versiculos": [
+                  {
+                    "id": "11",
+                    "texto": "Presta-nos auxílio na angústia, pois vão é o socorro do homem."
+                  },
+                  {
+                    "id": "12",
+                    "texto": "Em Deus faremos proezas, porque ele mesmo calca aos pés os nossos adversários."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Isaías",
+            "capitulos": [
+              {
+                "id": "54",
+                "versiculos": [
+                  {
+                    "id": "14",
+                    "texto": "Serás estabelecida em justiça, longe da opressão, porque já não temerás, e também do espanto, porque não chegará a ti."
+                  },
+                  {
+                    "id": "15",
+                    "texto": "Eis que poderão suscitar contendas, mas não procederá de mim; quem conspira contra ti cairá diante de ti."
+                  },
+                  {
+                    "id": "16",
+                    "texto": "Eis que eu criei o ferreiro, que assopra as brasas no fogo e que produz a arma para o seu devido fim; também criei o assolador, para destruir."
+                  },
+                  {
+                    "id": "17",
+                    "texto": "Toda arma forjada contra ti não prosperará; toda língua que ousar contra ti em juízo, tu a condenarás; esta é a herança dos servos do SENHOR e o seu direito que de mim procede, diz o SENHOR."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "Tu és Bom",
+        "textos": "Na 1.7, Sl 119.68 e Sl 145.9",
+        "livros": [
+          {
+            "nome": "Naum",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "O SENHOR é bom, é fortaleza no dia da angústia e conhece os que nele se refugiam."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Salmos",
+            "capitulos": [
+              {
+                "id": "119",
+                "versiculos": [
+                  {
+                    "id": "68",
+                    "texto": "Tu és bom e fazes o bem; ensina-me os teus decretos."
+                  }
+                ]
+              },
+              {
+                "id": "145",
+                "versiculos": [
+                  {
+                    "id": "9",
+                    "texto": "O SENHOR é bom para todos, e as suas ternas misericórdias permeiam todas as suas obras."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
