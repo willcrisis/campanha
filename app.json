@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "campanha",
+    "name": "Campanha de Louvor",
     "slug": "campanha",
     "version": "3.0.0",
     "orientation": "portrait",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.willcrisis.campanha"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/android-adaptive-icon.png",
         "backgroundColor": "#000000"
-      }
+      },
+      "package": "com.willcrisis.campanha"
     },
     "web": {
       "bundler": "metro",
@@ -27,7 +29,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/android-splash.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#000000"

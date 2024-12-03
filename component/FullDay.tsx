@@ -16,8 +16,14 @@ const FullDay = ({ week, day }: Props) => (
       </Text>
       <Text>{WEEK_DAY_MAP[Number(day.id)]}</Text>
       <Text
-        variant="displayLarge"
-        style={{ fontFamily: 'GreatVibes', textAlign: 'center', paddingTop: 4, color: '#dac132' }}
+        style={{
+          fontFamily: 'GreatVibes',
+          paddingTop: 4,
+          paddingHorizontal: 10,
+          color: '#dac132',
+          textAlign: 'center',
+          fontSize: 52,
+        }}
       >
         Deus Pai, {day.atributo}
       </Text>
