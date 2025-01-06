@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import { Text } from 'react-native-paper';
 
 type Props = {
-  title: string;
+  title?: string;
   leftAction?: ReactElement;
   rightAction?: ReactElement;
 };
