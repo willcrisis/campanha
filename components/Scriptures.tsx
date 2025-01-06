@@ -17,7 +17,7 @@ type ChapterProps = {
 };
 
 const Chapter = ({ chapter }: ChapterProps) => (
-  <View>
+  <View style={{ gap: 8 }}>
     <Text variant="titleSmall">Capítulo {chapter.id}</Text>
     {chapter.versiculos.map((verse) => (
       <Verse key={verse.id} verse={verse} />
