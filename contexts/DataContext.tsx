@@ -1,6 +1,6 @@
 import { createContext, PropsWithChildren, useContext } from 'react';
-import data from '@/assets/data/pt-br.json';
-import { differenceInDays, getDay, startOfDay } from 'date-fns';
+import data from '@/assets/data/data.pt-br.json';
+import { differenceInDays, getDay, parse, startOfDay } from 'date-fns';
 
 export type Versiculo = {
   id: string;
@@ -39,7 +39,7 @@ type DataContextType = {
 const DataContext = createContext<DataContextType>(undefined as never);
 
 const calculateCurrentDay = () => {
-  const baseDate = startOfDay(new Date(2016, 8, 11));
+  const baseDate = startOfDay(parse(String(process.env.EXPO_PUBLIC_BASE_DATE), 'yyyy-MM-dd', new Date()));
   const today = startOfDay(new Date());
 
   let difference = differenceInDays(today, baseDate);

@@ -17,12 +17,12 @@ type ChapterProps = {
 };
 
 const Chapter = ({ chapter }: ChapterProps) => (
-  <>
+  <View>
     <Text variant="titleSmall">Capítulo {chapter.id}</Text>
     {chapter.versiculos.map((verse) => (
       <Verse key={verse.id} verse={verse} />
     ))}
-  </>
+  </View>
 );
 
 type BookProps = {

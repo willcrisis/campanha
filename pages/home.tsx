@@ -1,5 +1,5 @@
-import FullDay from '@/component/FullDay';
-import PageView from '@/component/PageView';
+import FullDay from '@/components/FullDay';
+import PageView from '@/components/PageView';
 import { useData } from '@/contexts/DataContext';
 
 const HomePage = () => {
