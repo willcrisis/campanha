@@ -1,7 +1,11 @@
 import DataContextProvider from '@/contexts/DataContext';
-import { useFonts } from 'expo-font';
+import * as SplashScreen from 'expo-splash-screen';
+import { GreatVibes_400Regular, useFonts } from '@expo-google-fonts/great-vibes';
 import { Stack } from 'expo-router';
 import { MD3DarkTheme, PaperProvider } from 'react-native-paper';
+import { useEffect } from 'react';
+
+SplashScreen.preventAutoHideAsync();
 
 const theme: typeof MD3DarkTheme = {
   ...MD3DarkTheme,
@@ -12,9 +16,19 @@ const theme: typeof MD3DarkTheme = {
 };
 
 export default function RootLayout() {
-  useFonts({
-    GreatVibes: require('../assets/fonts/GreatVibes-Regular.ttf'),
+  const [loaded, error] = useFonts({
+    GreatVibes_400Regular,
   });
+
+  useEffect(() => {
+    if (loaded || error) {
+      SplashScreen.hideAsync();
+    }
+  }, [loaded, error]);
+
+  if (!loaded && !error) {
+    return null;
+  }
 
   return (
     <DataContextProvider>

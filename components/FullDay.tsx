@@ -2,6 +2,7 @@ import { Dia, Semana, WEEK_DAY_MAP } from '@/contexts/DataContext';
 import { ScrollView } from 'react-native';
 import { Text } from 'react-native-paper';
 import { Book } from './Scriptures';
+import { Copyright } from './Copyright';
 
 type Props = {
   week: Semana;
@@ -16,12 +17,12 @@ const FullDay = ({ week, day }: Props) => (
     <Text>{WEEK_DAY_MAP[Number(day.id)]}</Text>
     <Text
       style={{
-        fontFamily: 'GreatVibes',
+        fontFamily: 'GreatVibes_400Regular',
         paddingTop: 4,
         paddingHorizontal: 10,
         color: '#dac132',
         textAlign: 'center',
-        fontSize: 52,
+        fontSize: 50,
       }}
     >
       Deus Pai, {day.atributo}
@@ -30,6 +31,7 @@ const FullDay = ({ week, day }: Props) => (
     {day.livros.map((book) => (
       <Book key={book.nome} book={book} />
     ))}
+    <Copyright />
   </ScrollView>
 );
 
