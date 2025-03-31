@@ -37,6 +37,7 @@ export default function RootLayout() {
       <PaperProvider theme={theme}>
         <GestureHandlerRootView style={{ flex: 1 }}>
           <Drawer
+            backBehavior="history"
             screenOptions={{
               headerShown: false,
               drawerStyle: {
@@ -66,6 +67,14 @@ export default function RootLayout() {
               options={{
                 drawerLabel: 'Configurações',
                 title: 'Configurações',
+              }}
+            />
+            <Drawer.Screen
+              name="[weekAndDay]"
+              options={{
+                drawerItemStyle: {
+                  display: 'none',
+                },
               }}
             />
           </Drawer>

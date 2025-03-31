@@ -17,7 +17,7 @@ const PageHeader = ({ title, leftAction, rightAction }: Props) => {
       style={{ width: '100%', justifyContent: 'center', alignItems: 'center', paddingVertical: 10, marginBottom: 8 }}
     >
       <View style={{ position: 'absolute', left: 8 }}>
-        <IconButton icon="menu" onPress={() => navigation.dispatch(DrawerActions.openDrawer())} />
+        {leftAction || <IconButton icon="menu" onPress={() => navigation.dispatch(DrawerActions.openDrawer())} />}
       </View>
       {title && <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{title}</Text>}
       {rightAction && <View style={{ position: 'absolute', right: 8 }}>{rightAction}</View>}

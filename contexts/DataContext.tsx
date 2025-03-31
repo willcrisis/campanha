@@ -7,6 +7,16 @@ export type Versiculo = {
   texto: string;
 };
 
+export type SearchableVersiculo = Versiculo & {
+  key: string;
+  semana: number;
+  dia: number;
+  livro: string;
+  capitulo: string;
+  tema: string;
+  atributo: string;
+};
+
 export type Capitulo = {
   id: string;
   versiculos: Versiculo[];
@@ -34,6 +44,7 @@ type DataContextType = {
   thisWeek: Semana;
   today: Dia;
   allData: Semana[];
+  allVerses: SearchableVersiculo[];
 };
 
 const DataContext = createContext<DataContextType>(undefined as never);
@@ -70,6 +81,24 @@ const DataContextProvider = ({ children }: PropsWithChildren<unknown>) => {
 
   const thisWeek = data[currentWeek] as unknown as Semana;
   const today = thisWeek.dias[currentDay] as unknown as Dia;
+  const allVerses = data.flatMap((week) =>
+    week.dias.flatMap((day) =>
+      day.livros.flatMap((book) =>
+        book.capitulos.flatMap((chapter) =>
+          chapter.versiculos.map((versiculo) => ({
+            key: `${week.id}-${day.id}-${book.nome}-${chapter.id}-${versiculo.id}`,
+            ...versiculo,
+            semana: week.id,
+            dia: day.id,
+            livro: book.nome,
+            capitulo: chapter.id,
+            tema: week.tema,
+            atributo: day.atributo,
+          })),
+        ),
+      ),
+    ),
+  );
 
   return (
     <DataContext.Provider
@@ -77,6 +106,7 @@ const DataContextProvider = ({ children }: PropsWithChildren<unknown>) => {
         thisWeek,
         today,
         allData: data as unknown as Semana[],
+        allVerses,
       }}
     >
       {children}
