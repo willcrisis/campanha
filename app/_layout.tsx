@@ -1,9 +1,10 @@
 import DataContextProvider from '@/contexts/DataContext';
 import * as SplashScreen from 'expo-splash-screen';
 import { GreatVibes_400Regular, useFonts } from '@expo-google-fonts/great-vibes';
-import { Stack } from 'expo-router';
 import { MD3DarkTheme, PaperProvider } from 'react-native-paper';
 import { useEffect } from 'react';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { Drawer } from 'expo-router/drawer';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -12,6 +13,7 @@ const theme: typeof MD3DarkTheme = {
   colors: {
     ...MD3DarkTheme.colors,
     background: '#000000',
+    primary: '#ffffff',
   },
 };
 
@@ -33,7 +35,41 @@ export default function RootLayout() {
   return (
     <DataContextProvider>
       <PaperProvider theme={theme}>
-        <Stack screenOptions={{ headerShown: false }} />
+        <GestureHandlerRootView style={{ flex: 1 }}>
+          <Drawer
+            screenOptions={{
+              headerShown: false,
+              drawerStyle: {
+                backgroundColor: theme.colors.background,
+              },
+              drawerActiveBackgroundColor: theme.colors.surfaceDisabled,
+              drawerActiveTintColor: theme.colors.primary,
+              drawerInactiveTintColor: theme.colors.secondary,
+            }}
+          >
+            <Drawer.Screen
+              name="index"
+              options={{
+                drawerLabel: 'Hoje',
+                title: 'Hoje',
+              }}
+            />
+            <Drawer.Screen
+              name="search"
+              options={{
+                drawerLabel: 'Pesquisar',
+                title: 'Pesquisar',
+              }}
+            />
+            <Drawer.Screen
+              name="config"
+              options={{
+                drawerLabel: 'Configurações',
+                title: 'Configurações',
+              }}
+            />
+          </Drawer>
+        </GestureHandlerRootView>
       </PaperProvider>
     </DataContextProvider>
   );

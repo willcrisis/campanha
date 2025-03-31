@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <PageView>
       <PageHeader
-        leftAction={<IconButton icon="menu" />}
+        title="Hoje"
         rightAction={<IconButton icon="share" onPress={() => share(Number(thisWeek.id), Number(today.id))} />}
       />
       <FullDay week={thisWeek} day={today} />

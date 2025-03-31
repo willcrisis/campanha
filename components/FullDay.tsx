@@ -22,7 +22,7 @@ const FullDay = ({ week, day }: Props) => (
         paddingHorizontal: 10,
         color: '#dac132',
         textAlign: 'center',
-        fontSize: 50,
+        fontSize: 52,
       }}
     >
       Deus Pai, {day.atributo}
