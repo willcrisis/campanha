@@ -7,13 +7,14 @@ import { useEffect } from 'react';
 import { Stack } from 'expo-router';
 import NotificationProvider from '@/contexts/NotificationContext';
 import { pt, registerTranslation } from 'react-native-paper-dates';
-
+import AccessibilityProvider from '@/contexts/AccessibilityContext';
 registerTranslation('pt', pt);
 
 SplashScreen.preventAutoHideAsync();
 
 const theme: typeof MD3DarkTheme = {
   ...MD3DarkTheme,
+  mode: 'exact',
   colors: {
     ...MD3DarkTheme.colors,
     background: '#000000',
@@ -40,7 +41,9 @@ export default function RootLayout() {
     <PaperProvider theme={theme}>
       <DataContextProvider>
         <NotificationProvider>
-          <Stack screenOptions={{ headerShown: false }} />
+          <AccessibilityProvider>
+            <Stack screenOptions={{ headerShown: false }} />
+          </AccessibilityProvider>
         </NotificationProvider>
       </DataContextProvider>
     </PaperProvider>
