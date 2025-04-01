@@ -13,7 +13,7 @@ const ConfigPage = () => {
     <PageView>
       <PageHeader title="Configurações" />
       <Switch
-        label="Ser notificado todos os dias"
+        label="Ativar notificação"
         value={isNotificationEnabled}
         onValueChange={() => {
           setIsNotificationEnabled((prev) => {
