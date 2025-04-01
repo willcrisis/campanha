@@ -3,6 +3,8 @@ import PageHeader from '@/components/PageHeader';
 import PageView from '@/components/PageView';
 import { useData } from '@/contexts/DataContext';
 import { useShare } from '@/hooks/share';
+import { router } from 'expo-router';
+import { View } from 'react-native';
 import { IconButton } from 'react-native-paper';
 
 const HomePage = () => {
@@ -12,7 +14,13 @@ const HomePage = () => {
     <PageView>
       <PageHeader
         title="Hoje"
-        rightAction={<IconButton icon="share" onPress={() => share(Number(thisWeek.id), Number(today.id))} />}
+        leftAction={<IconButton icon="cog" onPress={() => router.push('/config')} />}
+        rightAction={
+          <View style={{ flexDirection: 'row', gap: 0 }}>
+            <IconButton icon="magnify" onPress={() => router.push('/search')} />
+            <IconButton icon="share" onPress={() => share(Number(thisWeek.id), Number(today.id))} />
+          </View>
+        }
       />
       <FullDay week={thisWeek} day={today} />
     </PageView>

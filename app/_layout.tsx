@@ -3,8 +3,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { GreatVibes_400Regular, useFonts } from '@expo-google-fonts/great-vibes';
 import { MD3DarkTheme, PaperProvider } from 'react-native-paper';
 import { useEffect } from 'react';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { Drawer } from 'expo-router/drawer';
+import { Stack } from 'expo-router';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -35,50 +34,7 @@ export default function RootLayout() {
   return (
     <DataContextProvider>
       <PaperProvider theme={theme}>
-        <GestureHandlerRootView style={{ flex: 1 }}>
-          <Drawer
-            backBehavior="history"
-            screenOptions={{
-              headerShown: false,
-              drawerStyle: {
-                backgroundColor: theme.colors.background,
-              },
-              drawerActiveBackgroundColor: theme.colors.surfaceDisabled,
-              drawerActiveTintColor: theme.colors.primary,
-              drawerInactiveTintColor: theme.colors.secondary,
-            }}
-          >
-            <Drawer.Screen
-              name="index"
-              options={{
-                drawerLabel: 'Hoje',
-                title: 'Hoje',
-              }}
-            />
-            <Drawer.Screen
-              name="search"
-              options={{
-                drawerLabel: 'Pesquisar',
-                title: 'Pesquisar',
-              }}
-            />
-            <Drawer.Screen
-              name="config"
-              options={{
-                drawerLabel: 'Configurações',
-                title: 'Configurações',
-              }}
-            />
-            <Drawer.Screen
-              name="[weekAndDay]"
-              options={{
-                drawerItemStyle: {
-                  display: 'none',
-                },
-              }}
-            />
-          </Drawer>
-        </GestureHandlerRootView>
+        <Stack screenOptions={{ headerShown: false }} />
       </PaperProvider>
     </DataContextProvider>
   );
