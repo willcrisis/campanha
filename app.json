@@ -8,6 +8,7 @@
     "scheme": "campanhadelouvor",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
+    "owner": "willcrisis",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.willcrisis.campanha",
