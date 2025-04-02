@@ -30,7 +30,7 @@ type BookProps = {
 };
 
 export const Book = ({ book }: BookProps) => (
-  <View style={{ paddingHorizontal: 8, gap: 8 }}>
+  <View style={{ paddingHorizontal: 8, gap: 8, width: '100%' }}>
     <InputLabel size="lg" bold>
       {book.nome}
     </InputLabel>

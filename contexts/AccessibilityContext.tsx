@@ -38,7 +38,7 @@ export const useAccessibility = () => useContext(AccessibilityContext);
 export const FontControls = () => {
   const { increaseFontSize, decreaseFontSize } = useAccessibility();
   return (
-    <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end' }}>
+    <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end', width: '100%' }}>
       <IconButton icon="format-font-size-decrease" onPress={decreaseFontSize} />
       <IconButton icon="format-font-size-increase" onPress={increaseFontSize} />
     </View>
