@@ -21,8 +21,7 @@
         "foregroundImage": "./assets/images/android-adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.willcrisis.campanha",
-      "versionCode": 300
+      "package": "com.willcrisis.campanha"
     },
     "web": {
       "bundler": "metro",
