@@ -13,8 +13,8 @@ type Props = {
 const SpecificDayPage = ({ week, day }: Props) => {
   const { allData } = useData();
   const { share } = useShare();
-  const weekData = allData[week] as unknown as Semana;
-  const dayData = weekData.dias[day] as unknown as Dia;
+  const weekData = allData[week - 1] as unknown as Semana;
+  const dayData = weekData.dias[day - 1] as unknown as Dia;
   return (
     <PageView>
       <PageHeader
