@@ -3,7 +3,8 @@
   <head>
     <script>
       function getMobileOperatingSystem() {
-        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        const userAgent =
+          navigator.userAgent || navigator.vendor || window.opera;
 
         if (/android/i.test(userAgent)) {
           return "android";
@@ -13,7 +14,7 @@
         if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
           return "ios";
         }
-i
+        i;
         return "unknown";
       }
     </script>
@@ -22,9 +23,11 @@ i
         const os = getMobileOperatingSystem();
         console.log(os);
         if (os == "android") {
-          window.location.href = "https://play.google.com/store/apps/details?id=com.willcrisis.campanha";
+          window.location.href =
+            "https://play.google.com/store/apps/details?id=com.willcrisis.campanha";
         } else if (os == "ios") {
-          window.location.href = "https://apps.apple.com/br/app/campanha-de-louvor/id6744073686";
+          window.location.href =
+            "https://apps.apple.com/br/app/campanha-de-louvor/id6744073686";
         }
       }
     </script>
@@ -295,12 +298,33 @@ i
       <div class="container">
         <h1>Louve a Deus por Seus Atributos</h1>
         <p>
-          Esta é a Campanha de Louvor da igreja Monte da Santidade do Senhor, de Goiânia-GO.
-          Esse aplicativo vai te ajudar a meditar sistematicamente sobre os
-          diferentes atributos e características de Deus, com textos bíblicos
-          para cada dia da jornada.
+          Esta é a Campanha de Louvor da igreja Monte da Santidade do Senhor, de
+          Goiânia-GO. Esse aplicativo vai te ajudar a meditar sistematicamente
+          sobre os diferentes atributos e características de Deus, com textos
+          bíblicos para cada dia da jornada.
         </p>
-        <a href="#" class="cta-button">Baixe o App</a>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem" id="downloads">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.willcrisis.campanha&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+          >
+            <img
+              alt="Disponível no Google Play"
+              style="height: 100px"
+              src="https://play.google.com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic.png"
+            />
+          </a>
+
+          <a
+            href="https://apps.apple.com/br/app/campanha-de-louvor/id6744073686?itscg=30200&itsct=apps_box_badge&mttnsubad=6744073686"
+            style="display: inline-block"
+          >
+            <img
+              src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/pt-br?releaseDate=1743552000"
+              alt="Download on the App Store"
+              style="height: 78px"
+            />
+          </a>
+        </div>
       </div>
     </section>
 
@@ -308,10 +332,11 @@ i
       <div class="container">
         <h2>O que é a Campanha de Louvor?</h2>
         <p>
-          A Campanha de Louvor é uma campanha criada pela igreja Monte da Santidade do Senhor
-          que foca em louvar a Deus sistematicamente por Seus atributos. A campanha segue uma
-          abordagem estruturada que se estende por 7 semanas, com cada semana
-          dedicada a um tema específico do caráter de Deus.
+          A Campanha de Louvor é uma campanha criada pela igreja Monte da
+          Santidade do Senhor que foca em louvar a Deus sistematicamente por
+          Seus atributos. A campanha segue uma abordagem estruturada que se
+          estende por 7 semanas, com cada semana dedicada a um tema específico
+          do caráter de Deus.
         </p>
         <p>
           Quando o ciclo de 7 semanas é completado, ela reinicia
@@ -406,7 +431,7 @@ i
           Android e iOS. Baixe agora e comece a meditar diariamente nos
           atributos de Deus.
         </p>
-        <a href="#" class="cta-button">Baixar Aplicativo</a>
+        <a href="#downloads" class="cta-button">Baixar Aplicativo</a>
       </div>
     </section>
 
