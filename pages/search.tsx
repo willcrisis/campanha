@@ -15,7 +15,7 @@ const SearchPage = () => {
   return (
     <PageView>
       <PageHeader title="Pesquisar" />
-      <TextInput label="Buscar..." value={searchText} onChangeText={setSearchText} />
+      <TextInput label="Buscar..." value={searchText} onChangeText={setSearchText} style={{ margin: 8 }} />
       <FlatList
         data={results}
         keyExtractor={(item) => item.key}

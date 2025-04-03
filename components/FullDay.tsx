@@ -14,9 +14,8 @@ type Props = {
 const FullDay = ({ week, day }: Props) => {
   const { fontSize } = useAccessibility();
   return (
-    <ScrollView style={{ flex: 1 }}>
-      <FontControls />
-      <View style={{ paddingTop: 16, flex: 1, alignItems: 'center', gap: 24 }}>
+    <View style={{ flex: 1, position: 'relative' }}>
+      <ScrollView contentContainerStyle={{ paddingTop: 60, alignItems: 'center', gap: 24 }}>
         <InputLabel>
           {week.id}ª Semana: {week.tema}
         </InputLabel>
@@ -38,8 +37,9 @@ const FullDay = ({ week, day }: Props) => {
           <Book key={book.nome} book={book} />
         ))}
         <Copyright />
-      </View>
-    </ScrollView>
+      </ScrollView>
+      <FontControls />
+    </View>
   );
 };
 

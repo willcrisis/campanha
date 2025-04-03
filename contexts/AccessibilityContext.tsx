@@ -1,7 +1,7 @@
 import usePersistedState from '@/hooks/usePersistedState';
 import { createContext, useContext } from 'react';
 import { View } from 'react-native';
-import { IconButton } from 'react-native-paper';
+import { IconButton, useTheme } from 'react-native-paper';
 
 type AccessibilityContextType = {
   fontSize: number;
@@ -37,8 +37,22 @@ export const useAccessibility = () => useContext(AccessibilityContext);
 
 export const FontControls = () => {
   const { increaseFontSize, decreaseFontSize } = useAccessibility();
+  const theme = useTheme();
   return (
-    <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end', width: '100%' }}>
+    <View
+      style={{
+        position: 'absolute',
+        top: 0,
+        right: 5,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'flex-end',
+        backgroundColor: theme.colors.background,
+        borderBottomRightRadius: 15,
+        borderBottomLeftRadius: 15,
+        gap: 10,
+      }}
+    >
       <IconButton icon="format-font-size-decrease" onPress={decreaseFontSize} />
       <IconButton icon="format-font-size-increase" onPress={increaseFontSize} />
     </View>
