@@ -1,18 +1,19 @@
-import usePersistedState from '@/hooks/usePersistedState';
 import Constants from 'expo-constants';
 import { isDevice } from 'expo-device';
 import {
   SchedulableTriggerInputTypes,
   scheduleNotificationAsync,
   setNotificationHandler,
-  cancelScheduledNotificationAsync,
   setNotificationChannelAsync,
   AndroidImportance,
   getPermissionsAsync,
   requestPermissionsAsync,
   getExpoPushTokenAsync,
+  cancelAllScheduledNotificationsAsync,
+  getAllScheduledNotificationsAsync,
+  CalendarNotificationTrigger,
 } from 'expo-notifications';
-import { createContext, useCallback, useContext, useEffect } from 'react';
+import { createContext, useCallback, useContext, useEffect, useState } from 'react';
 import { Platform } from 'react-native';
 
 setNotificationHandler({
@@ -23,7 +24,9 @@ setNotificationHandler({
   }),
 });
 
-export async function registerForPushNotificationsAsync() {
+export async function registerForPushNotificationsAsync(
+  setNotificationTime: (notificationTime: NotificationTime) => void,
+) {
   let token;
 
   if (Platform.OS === 'android') {
@@ -57,6 +60,15 @@ export async function registerForPushNotificationsAsync() {
       ).data;
       console.info(token);
     }
+
+    getAllScheduledNotificationsAsync().then((notifications) => {
+      const notificationTime = (notifications[0].trigger as CalendarNotificationTrigger).dateComponents;
+      setNotificationTime({
+        id: notifications[0].identifier,
+        hour: notificationTime.hour!,
+        minute: notificationTime.minute!,
+      });
+    });
   } else {
     alert('Must use physical device for Push Notifications');
   }
@@ -64,8 +76,14 @@ export async function registerForPushNotificationsAsync() {
   return token;
 }
 
+type NotificationTime = {
+  id: string;
+  hour: number;
+  minute: number;
+};
+
 type NotificationContextType = {
-  notificationTime?: { id: string; hour: number; minute: number };
+  notificationTime?: NotificationTime;
   scheduleNotification: (hour: number, minute: number) => Promise<void>;
   cancelNotification: () => Promise<void>;
 };
@@ -77,48 +95,49 @@ const NotificationContext = createContext<NotificationContextType>({
 });
 
 const NotificationProvider = ({ children }: { children: React.ReactNode }) => {
-  const [notificationTime, setNotificationTime, clearNotificationTime] = usePersistedState<
-    { id: string; hour: number; minute: number } | undefined
-  >('notificationTime');
+  const [notificationTime, setNotificationTime] = useState<NotificationTime>();
 
   useEffect(() => {
-    registerForPushNotificationsAsync();
+    registerForPushNotificationsAsync(setNotificationTime);
   }, []);
 
-  const scheduleNotification = useCallback(async (hour: number, minute: number) => {
-    try {
-      if (notificationTime) {
-        await cancelNotification();
-      }
+  const scheduleNotification = useCallback(
+    async (hour: number, minute: number) => {
+      try {
+        if (notificationTime) {
+          await cancelAllScheduledNotificationsAsync();
+        }
 
-      const notificationId = await scheduleNotificationAsync({
-        content: {
-          title: 'É hora da Campanha de Louvor',
-          body: 'Comece seu dia na presença do Senhor',
-        },
-        trigger: {
-          type: SchedulableTriggerInputTypes.DAILY,
+        const notificationId = await scheduleNotificationAsync({
+          content: {
+            title: 'É hora da Campanha de Louvor',
+            body: 'Comece seu dia na presença do Senhor',
+          },
+          trigger: {
+            type: SchedulableTriggerInputTypes.DAILY,
+            hour,
+            minute,
+          },
+        });
+        console.info('Notification scheduled', notificationId, hour, minute);
+
+        setNotificationTime({
+          id: notificationId,
           hour,
           minute,
-        },
-      });
-      console.info('Notification scheduled', notificationId, hour, minute);
-
-      setNotificationTime({
-        id: notificationId,
-        hour,
-        minute,
-      });
-    } catch (error) {
-      console.error(error);
-    }
-  }, []);
+        });
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    [notificationTime],
+  );
 
   const cancelNotification = useCallback(async () => {
     if (!notificationTime) return;
-    await cancelScheduledNotificationAsync(notificationTime.id);
+    await cancelAllScheduledNotificationsAsync();
     console.info('Notification cancelled');
-    clearNotificationTime();
+    setNotificationTime(undefined);
   }, [notificationTime]);
 
   return (
