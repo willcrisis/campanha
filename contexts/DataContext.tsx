@@ -1,7 +1,9 @@
-import { createContext, PropsWithChildren, useContext } from 'react';
+import { createContext, PropsWithChildren, useCallback, useContext, useEffect, useState } from 'react';
 import data from '@/assets/data/data.pt-br.json';
 import { differenceInDays, getDay, parse, startOfDay } from 'date-fns';
 import { BASE_DATE } from '@/constants';
+import { AppState, View } from 'react-native';
+import { ActivityIndicator } from 'react-native-paper';
 
 export type Versiculo = {
   id: string;
@@ -52,16 +54,16 @@ const DataContext = createContext<DataContextType>(undefined as never);
 
 const calculateCurrentDay = () => {
   const baseDate = startOfDay(parse(String(BASE_DATE), 'yyyy-MM-dd', new Date()));
-  const today = startOfDay(new Date());
+  const now = startOfDay(new Date());
 
-  let difference = differenceInDays(today, baseDate);
+  let difference = differenceInDays(now, baseDate);
 
   while (difference >= 49) {
     difference -= 49;
   }
 
   const week = Math.floor(difference / 7);
-  const day = getDay(today);
+  const day = getDay(now);
 
   return [week, day];
 };
@@ -78,7 +80,28 @@ export const WEEK_DAY_MAP = [
 ];
 
 const DataContextProvider = ({ children }: PropsWithChildren<unknown>) => {
-  const [currentWeek, currentDay] = calculateCurrentDay();
+  const [[currentWeek, currentDay], setCurrent] = useState([0, 0]);
+  const [loaded, setLoaded] = useState(false);
+
+  const getCurrentDay = useCallback(() => {
+    const [week, day] = calculateCurrentDay();
+    setCurrent([week, day]);
+    setLoaded(true);
+  }, []);
+
+  useEffect(() => {
+    AppState.addEventListener('change', (state) => {
+      if (state === 'active') {
+        setLoaded(false);
+        getCurrentDay();
+      }
+    });
+  }, [getCurrentDay]);
+
+  useEffect(() => {
+    setLoaded(false);
+    getCurrentDay();
+  }, [getCurrentDay]);
 
   const thisWeek = data[currentWeek] as unknown as Semana;
   const today = thisWeek.dias[currentDay] as unknown as Dia;
@@ -100,6 +123,14 @@ const DataContextProvider = ({ children }: PropsWithChildren<unknown>) => {
       ),
     ),
   );
+
+  if (!loaded) {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <ActivityIndicator size="large" />
+      </View>
+    );
+  }
 
   return (
     <DataContext.Provider
