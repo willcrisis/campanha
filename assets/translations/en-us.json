@@ -1,0 +1,49 @@
+{
+  "language.name": "English",
+  "weekDays": {
+    "1": "Sunday",
+    "2": "Monday",
+    "3": "Tuesday",
+    "4": "Wednesday",
+    "5": "Thursday",
+    "6": "Friday",
+    "7": "Saturday"
+  },
+  "notifications": {
+    "title": "It's time for the Praise Campaign",
+    "body": "Start your day in the presence of the Lord"
+  },
+  "pages": {
+    "config": {
+      "title": "Settings",
+      "enableNotifications": "Enable notifications",
+      "notificationTime": "Notification time",
+      "language": "Language"
+    },
+    "home": {
+      "title": "Today"
+    },
+    "search": {
+      "title": "Search",
+      "noResults": "No results found"
+    }
+  },
+  "inputs": {
+    "search": {
+      "label": "Type to Search..."
+    }
+  },
+  "components": {
+    "fullDay": {
+      "week": "{{week}} Week: {{theme}}",
+      "attribute": "Father God, {{attribute}}",
+      "chapter": "Chapter {{chapter}}"
+    },
+    "copyright": {
+      "text": "Scripture quotations from The Authorized (King James) Version. Rights in the Authorized Version in the United Kingdom are vested in the Crown. Reproduced by permission of the Crown’s patentee, Cambridge University Press"
+    },
+    "verse": {
+      "attribute": "{{week}} Week - {{theme}} - Father God, {{attribute}}"
+    }
+  }
+}

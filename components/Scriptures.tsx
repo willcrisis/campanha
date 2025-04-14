@@ -1,6 +1,7 @@
 import { Capitulo, Livro, Versiculo } from '@/contexts/DataContext';
 import { View } from 'react-native';
 import InputLabel from './inputs/InputLabel';
+import { useI18n } from '@/contexts/I18nContext';
 
 type VerseProps = {
   verse: Versiculo;
@@ -16,14 +17,17 @@ type ChapterProps = {
   chapter: Capitulo;
 };
 
-const Chapter = ({ chapter }: ChapterProps) => (
-  <View style={{ gap: 8 }}>
-    <InputLabel bold>Capítulo {chapter.id}</InputLabel>
-    {chapter.versiculos.map((verse) => (
-      <Verse key={verse.id} verse={verse} />
-    ))}
-  </View>
-);
+const Chapter = ({ chapter }: ChapterProps) => {
+  const { translate } = useI18n();
+  return (
+    <View style={{ gap: 8 }}>
+      <InputLabel bold>{translate('components.fullDay.chapter', { chapter: chapter.id })}</InputLabel>
+      {chapter.versiculos.map((verse) => (
+        <Verse key={verse.id} verse={verse} />
+      ))}
+    </View>
+  );
+};
 
 type BookProps = {
   book: Livro;

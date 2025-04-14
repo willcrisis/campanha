@@ -8,6 +8,7 @@ import { Stack } from 'expo-router';
 import NotificationProvider from '@/contexts/NotificationContext';
 import { pt, registerTranslation } from 'react-native-paper-dates';
 import AccessibilityProvider from '@/contexts/AccessibilityContext';
+import I18nProvider from '@/contexts/I18nContext';
 registerTranslation('pt', pt);
 
 SplashScreen.preventAutoHideAsync();
@@ -39,13 +40,15 @@ export default function RootLayout() {
 
   return (
     <PaperProvider theme={theme}>
-      <DataContextProvider>
-        <NotificationProvider>
-          <AccessibilityProvider>
-            <Stack screenOptions={{ headerShown: false }} />
-          </AccessibilityProvider>
-        </NotificationProvider>
-      </DataContextProvider>
+      <I18nProvider>
+        <DataContextProvider>
+          <NotificationProvider>
+            <AccessibilityProvider>
+              <Stack screenOptions={{ headerShown: false }} />
+            </AccessibilityProvider>
+          </NotificationProvider>
+        </DataContextProvider>
+      </I18nProvider>
     </PaperProvider>
   );
 }

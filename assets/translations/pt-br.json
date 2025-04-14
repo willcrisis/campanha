@@ -1,0 +1,49 @@
+{
+  "language.name": "Português (Brasil)",
+  "weekDays": {
+    "1": "Domingo",
+    "2": "Segunda-feira",
+    "3": "Terça-feira",
+    "4": "Quarta-feira",
+    "5": "Quinta-feira",
+    "6": "Sexta-feira",
+    "7": "Sábado"
+  },
+  "notifications": {
+    "title": "É hora da Campanha de Louvor",
+    "body": "Comece seu dia na presença do Senhor"
+  },
+  "pages": {
+    "config": {
+      "title": "Configurações",
+      "enableNotifications": "Ativar notificações",
+      "notificationTime": "Hora da notificação",
+      "language": "Idioma"
+    },
+    "home": {
+      "title": "Hoje"
+    },
+    "search": {
+      "title": "Pesquisar",
+      "noResults": "Nenhum resultado encontrado"
+    }
+  },
+  "inputs": {
+    "search": {
+      "label": "Buscar..."
+    }
+  },
+  "components": {
+    "fullDay": {
+      "week": "{{week}} Semana: {{theme}}",
+      "attribute": "Deus Pai, {{attribute}}",
+      "chapter": "Capítulo {{chapter}}"
+    },
+    "copyright": {
+      "text": "ARA © 1993 Sociedade Bíblica do Brasil. Todos os direitos reservados."
+    },
+    "verse": {
+      "attribute": "{{week}} Semana - {{theme}} - Deus Pai, {{attribute}}"
+    }
+  }
+}

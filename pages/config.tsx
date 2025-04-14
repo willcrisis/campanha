@@ -4,16 +4,18 @@ import PageHeader from '@/components/PageHeader';
 import PageView from '@/components/PageView';
 import { useNotification } from '@/contexts/NotificationContext';
 import { useState } from 'react';
+import { useI18n, ChangeLanguageMenu } from '@/contexts/I18nContext';
 
 const ConfigPage = () => {
   const { notificationTime, scheduleNotification, cancelNotification } = useNotification();
   const [isNotificationEnabled, setIsNotificationEnabled] = useState(notificationTime !== undefined);
+  const { translate } = useI18n();
 
   return (
     <PageView>
-      <PageHeader title="Configurações" />
+      <PageHeader title={translate('pages.config.title')} />
       <Switch
-        label="Ativar notificação"
+        label={translate('pages.config.enableNotifications')}
         value={isNotificationEnabled}
         onValueChange={() => {
           setIsNotificationEnabled((prev) => {
@@ -36,6 +38,7 @@ const ConfigPage = () => {
           }}
         />
       )}
+      <ChangeLanguageMenu />
     </PageView>
   );
 };

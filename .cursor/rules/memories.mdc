@@ -1,0 +1,7 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- Before answering any question or editing any code, read the contents of the `docs/memories` folder (in case it exists) to remember all your past interactions with this project.
+- When asked to create a new memory, create it under the `docs/memories` folder. You can append and edit existing files there if you think it's worthy.

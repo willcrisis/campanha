@@ -1,9 +1,9 @@
 import { createContext, PropsWithChildren, useCallback, useContext, useEffect, useState } from 'react';
-import data from '@/assets/data/data.pt-br.json';
 import { differenceInDays, getDay, parse, startOfDay } from 'date-fns';
 import { BASE_DATE } from '@/constants';
 import { AppState, View } from 'react-native';
 import { ActivityIndicator } from 'react-native-paper';
+import { useI18n } from './I18nContext';
 
 export type Versiculo = {
   id: string;
@@ -68,20 +68,11 @@ const calculateCurrentDay = () => {
   return [week, day];
 };
 
-export const WEEK_DAY_MAP = [
-  '',
-  'Domingo',
-  'Segunda-feira',
-  'Terça-feira',
-  'Quarta-feira',
-  'Quinta-feira',
-  'Sexta-feira',
-  'Sábado',
-];
-
 const DataContextProvider = ({ children }: PropsWithChildren<unknown>) => {
   const [[currentWeek, currentDay], setCurrent] = useState([0, 0]);
   const [loaded, setLoaded] = useState(false);
+
+  const { data } = useI18n();
 
   const getCurrentDay = useCallback(() => {
     const [week, day] = calculateCurrentDay();
