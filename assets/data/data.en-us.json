@@ -1,0 +1,1970 @@
+[
+  {
+    "id": 1,
+    "tema": "The Love of God",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "You are Love",
+        "textos": "Jer 31:3 and 1 John 4:7-8",
+        "livros": [
+          {
+            "nome": "Jeremiah",
+            "capitulos": [
+              {
+                "id": "31",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "The LORD hath appeared of old unto me, saying, Yea, I have loved thee with an everlasting love: therefore with lovingkindness have I drawn thee."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "1 John",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "Beloved, let us love one another: for love is of God; and every one that loveth is born of God, and knoweth God."
+                  },
+                  {
+                    "id": "8",
+                    "texto": "He that loveth not knoweth not God; for God is love."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "You are Eternal",
+        "textos": "Isa 26:4 and 1 Tim 1:17",
+        "livros": [
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "26",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "Trust ye in the LORD for ever: for in the LORD JEHOVAH is everlasting strength."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "1 Timothy",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "You are Present",
+        "textos": "Deut 20:1, 4 and Isa 45:2-3",
+        "livros": [
+          {
+            "nome": "Deuteronomy",
+            "capitulos": [
+              {
+                "id": "20",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "When thou goest out to battle against thine enemies, and seest horses, and chariots, and a people more than thou, be not afraid of them: for the LORD thy God is with thee, which brought thee up out of the land of Egypt."
+                  },
+                  {
+                    "id": "4",
+                    "texto": "For the LORD your God is he that goeth with you, to fight for you against your enemies, to save you."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "45",
+                "versiculos": [
+                  {
+                    "id": "2",
+                    "texto": "I will go before thee, and make the crooked places straight: I will break in pieces the gates of brass, and cut in sunder the bars of iron:"
+                  },
+                  {
+                    "id": "3",
+                    "texto": "And I will give thee the treasures of darkness, and hidden riches of secret places, that thou mayest know that I, the LORD, which call thee by thy name, am the God of Israel."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "You are Unique",
+        "textos": "Isa 46:9-10 and Col 1:17-18",
+        "livros": [
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "46",
+                "versiculos": [
+                  {
+                    "id": "9",
+                    "texto": "Remember the former things of old: for I am God, and there is none else; I am God, and there is none like me,"
+                  },
+                  {
+                    "id": "10",
+                    "texto": "Declaring the end from the beginning, and from ancient times the things that are not yet done, saying, My counsel shall stand, and I will do all my pleasure:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Colossians",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "And he is before all things, and by him all things consist."
+                  },
+                  {
+                    "id": "18",
+                    "texto": "And he is the head of the body, the church: who is the beginning, the firstborn from the dead; that in all things he might have the preeminence."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "You are Immaculate",
+        "textos": "Heb 4:14-16",
+        "livros": [
+          {
+            "nome": "Hebrews",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "14",
+                    "texto": "Seeing then that we have a great high priest, that is passed into the heavens, Jesus the Son of God, let us hold fast our profession."
+                  },
+                  {
+                    "id": "15",
+                    "texto": "For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin."
+                  },
+                  {
+                    "id": "16",
+                    "texto": "Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "You are Glorious",
+        "textos": "1 Chr 29:12-13 and Isa 63:1",
+        "livros": [
+          {
+            "nome": "1 Chronicles",
+            "capitulos": [
+              {
+                "id": "29",
+                "versiculos": [
+                  {
+                    "id": "12",
+                    "texto": "Both riches and honour come of thee, and thou reignest over all; and in thine hand is power and might; and in thine hand it is to make great, and to give strength unto all."
+                  },
+                  {
+                    "id": "13",
+                    "texto": "Now therefore, our God, we thank thee, and praise thy glorious name."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "63",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Who is this that cometh from Edom, with dyed garments from Bozrah? this that is glorious in his apparel, travelling in the greatness of his strength? I that speak in righteousness, mighty to save."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "You are Great",
+        "textos": "2 Sam 7:22 and Eph 1:18-19",
+        "livros": [
+          {
+            "nome": "2 Samuel",
+            "capitulos": [
+              {
+                "id": "7",
+                "versiculos": [
+                  {
+                    "id": "22",
+                    "texto": "Wherefore thou art great, O LORD God: for there is none like thee, neither is there any God beside thee, according to all that we have heard with our ears."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Ephesians",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "18",
+                    "texto": "The eyes of your understanding being enlightened; that ye may know what is the hope of his calling, and what the riches of the glory of his inheritance in the saints,"
+                  },
+                  {
+                    "id": "19",
+                    "texto": "And what is the exceeding greatness of his power to us-ward who believe, according to the working of his mighty power,"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tema": "The Holiness of God",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "You are Holy",
+        "textos": "Isa 57:15 and Rev 15:4",
+        "livros": [
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "57",
+                "versiculos": [
+                  {
+                    "id": "15",
+                    "texto": "For thus saith the high and lofty One that inhabiteth eternity, whose name is Holy; I dwell in the high and holy place, with him also that is of a contrite and humble spirit, to revive the spirit of the humble, and to revive the heart of the contrite ones."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Revelation",
+            "capitulos": [
+              {
+                "id": "15",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "Who shall not fear thee, O Lord, and glorify thy name? for thou only art holy: for all nations shall come and worship before thee; for thy judgments are made manifest."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "You are Exalted",
+        "textos": "Isa 12:4 and 2 Pet 1:17",
+        "livros": [
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "12",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "And in that day shall ye say, Praise the LORD, call upon his name, declare his doings among the people, make mention that his name is exalted."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Peter",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "For he received from God the Father honour and glory, when there came such a voice to him from the excellent glory, This is my beloved Son, in whom I am well pleased."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "You are Worthy of All Trust",
+        "textos": "Ps 40:1-2 and Heb 13:5-6",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "40",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "I waited patiently for the LORD; and he inclined unto me, and heard my cry."
+                  },
+                  {
+                    "id": "2",
+                    "texto": "He brought me up also out of an horrible pit, out of the miry clay, and set my feet upon a rock, and established my goings."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Hebrews",
+            "capitulos": [
+              {
+                "id": "13",
+                "versiculos": [
+                  {
+                    "id": "5",
+                    "texto": "Let your conversation be without covetousness; and be content with such things as ye have: for he hath said, I will never leave thee, nor forsake thee."
+                  },
+                  {
+                    "id": "6",
+                    "texto": "So that we may boldly say, The Lord is my helper, and I will not fear what man shall do unto me."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "You are Strong",
+        "textos": "Ps 10:17 and Eph 6:10-11",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "10",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "LORD, thou hast heard the desire of the humble: thou wilt prepare their heart, thou wilt cause thine ear to hear:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Ephesians",
+            "capitulos": [
+              {
+                "id": "6",
+                "versiculos": [
+                  {
+                    "id": "10",
+                    "texto": "Finally, my brethren, be strong in the Lord, and in the power of his might."
+                  },
+                  {
+                    "id": "11",
+                    "texto": "Put on the whole armour of God, that ye may be able to stand against the wiles of the devil."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "You Possess Sufficiency",
+        "textos": "Phil 4:19 and John 15:5",
+        "livros": [
+          {
+            "nome": "Philippians",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "19",
+                    "texto": "But my God shall supply all your need according to his riches in glory by Christ Jesus."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "John",
+            "capitulos": [
+              {
+                "id": "15",
+                "versiculos": [
+                  {
+                    "id": "5",
+                    "texto": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "You are Immeasurable",
+        "textos": "Isa 40:26-28, 31",
+        "livros": [
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "40",
+                "versiculos": [
+                  {
+                    "id": "26",
+                    "texto": "Lift up your eyes on high, and behold who hath created these things, that bringeth out their host by number: he calleth them all by names by the greatness of his might, for that he is strong in power; not one faileth."
+                  },
+                  {
+                    "id": "27",
+                    "texto": "Why sayest thou, O Jacob, and speakest, O Israel, My way is hid from the LORD, and my judgment is passed over from my God?"
+                  },
+                  {
+                    "id": "28",
+                    "texto": "Hast thou not known? hast thou not heard, that the everlasting God, the LORD, the Creator of the ends of the earth, fainteth not, neither is weary? there is no searching of his understanding."
+                  },
+                  {
+                    "id": "31",
+                    "texto": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "You are Wise",
+        "textos": "Mark 6:2 and James 3:17",
+        "livros": [
+          {
+            "nome": "Mark",
+            "capitulos": [
+              {
+                "id": "6",
+                "versiculos": [
+                  {
+                    "id": "2",
+                    "texto": "And when the sabbath day was come, he began to teach in the synagogue: and many hearing him were astonished, saying, From whence hath this man these things? and what wisdom is this which is given unto him, that even such mighty works are wrought by his hands?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "James",
+            "capitulos": [
+              {
+                "id": "3",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tema": "The Majesty of God",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "You are Majestic",
+        "textos": "1 Chr 29:11-12 and 2 Pet 1:16-17",
+        "livros": [
+          {
+            "nome": "1 Chronicles",
+            "capitulos": [
+              {
+                "id": "29",
+                "versiculos": [
+                  {
+                    "id": "11",
+                    "texto": "Thine, O LORD, is the greatness, and the power, and the glory, and the victory, and the majesty: for all that is in the heaven and in the earth is thine; thine is the kingdom, O LORD, and thou art exalted as head above all."
+                  },
+                  {
+                    "id": "12",
+                    "texto": "Both riches and honour come of thee, and thou reignest over all; and in thine hand is power and might; and in thine hand it is to make great, and to give strength unto all."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Peter",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "16",
+                    "texto": "For we have not followed cunningly devised fables, when we made known unto you the power and coming of our Lord Jesus Christ, but were eyewitnesses of his majesty."
+                  },
+                  {
+                    "id": "17",
+                    "texto": "For he received from God the Father honour and glory, when there came such a voice to him from the excellent glory, This is my beloved Son, in whom I am well pleased."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "You are Creator",
+        "textos": "Jer 51:19 and Col 1:15-17",
+        "livros": [
+          {
+            "nome": "Jeremiah",
+            "capitulos": [
+              {
+                "id": "51",
+                "versiculos": [
+                  {
+                    "id": "19",
+                    "texto": "The portion of Jacob is not like them; for he is the former of all things: and Israel is the rod of his inheritance: the LORD of hosts is his name."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Colossians",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "15",
+                    "texto": "Who is the image of the invisible God, the firstborn of every creature:"
+                  },
+                  {
+                    "id": "16",
+                    "texto": "For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him:"
+                  },
+                  {
+                    "id": "17",
+                    "texto": "And he is before all things, and by him all things consist."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "You are Within Our Reach",
+        "textos": "Ps 34:18-19 and Ps 119:151-152",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "34",
+                "versiculos": [
+                  {
+                    "id": "18",
+                    "texto": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit."
+                  },
+                  {
+                    "id": "19",
+                    "texto": "Many are the afflictions of the righteous: but the LORD delivereth him out of them all."
+                  }
+                ]
+              },
+              {
+                "id": "119",
+                "versiculos": [
+                  {
+                    "id": "151",
+                    "texto": "Thou art near, O LORD; and all thy commandments are truth."
+                  },
+                  {
+                    "id": "152",
+                    "texto": "Concerning thy testimonies, I have known of old that thou hast founded them for ever."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "You are Tremendous",
+        "textos": "Ps 47:2 and Ps 68:35",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "47",
+                "versiculos": [
+                  {
+                    "id": "2",
+                    "texto": "For the LORD most high is terrible; he is a great King over all the earth."
+                  }
+                ]
+              },
+              {
+                "id": "68",
+                "versiculos": [
+                  {
+                    "id": "35",
+                    "texto": "O God, thou art terrible out of thy holy places: the God of Israel is he that giveth strength and power unto his people. Blessed be God."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "You are Constant",
+        "textos": "Ps 9:7-8 and Ps 89:33-34",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "9",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "But the LORD shall endure for ever: he hath prepared his throne for judgment."
+                  },
+                  {
+                    "id": "8",
+                    "texto": "And he shall judge the world in righteousness, he shall minister judgment to the people in uprightness."
+                  }
+                ]
+              },
+              {
+                "id": "89",
+                "versiculos": [
+                  {
+                    "id": "33",
+                    "texto": "Nevertheless my lovingkindness will I not utterly take from him, nor suffer my faithfulness to fail."
+                  },
+                  {
+                    "id": "34",
+                    "texto": "My covenant will I not break, nor alter the thing that is gone out of my lips."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "You are Generous",
+        "textos": "Ps 115:12-14 and James 1:5-6",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "115",
+                "versiculos": [
+                  {
+                    "id": "12",
+                    "texto": "The LORD hath been mindful of us: he will bless us; he will bless the house of Israel; he will bless the house of Aaron."
+                  },
+                  {
+                    "id": "13",
+                    "texto": "He will bless them that fear the LORD, both small and great."
+                  },
+                  {
+                    "id": "14",
+                    "texto": "The LORD shall increase you more and more, you and your children."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "James",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "5",
+                    "texto": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him."
+                  },
+                  {
+                    "id": "6",
+                    "texto": "But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "You are Capable",
+        "textos": "Heb 7:25 and 1 John 2:1-2",
+        "livros": [
+          {
+            "nome": "Hebrews",
+            "capitulos": [
+              {
+                "id": "7",
+                "versiculos": [
+                  {
+                    "id": "25",
+                    "texto": "Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "1 John",
+            "capitulos": [
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "My little children, these things write I unto you, that ye sin not. And if any man sin, we have an advocate with the Father, Jesus Christ the righteous:"
+                  },
+                  {
+                    "id": "2",
+                    "texto": "And he is the propitiation for our sins: and not for ours only, but also for the sins of the whole world."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tema": "The Justice of God",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "You are Just",
+        "textos": "Ps 119:137-138 and 1 John 2:1",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "119",
+                "versiculos": [
+                  {
+                    "id": "137",
+                    "texto": "Righteous art thou, O LORD, and upright are thy judgments."
+                  },
+                  {
+                    "id": "138",
+                    "texto": "Thy testimonies that thou hast commanded are righteous and very faithful."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "1 John",
+            "capitulos": [
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "My little children, these things write I unto you, that ye sin not. And if any man sin, we have an advocate with the Father, Jesus Christ the righteous:"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "You are Invincible",
+        "textos": "John 16:33 and Rom 8:37",
+        "livros": [
+          {
+            "nome": "John",
+            "capitulos": [
+              {
+                "id": "16",
+                "versiculos": [
+                  {
+                    "id": "33",
+                    "texto": "These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Romans",
+            "capitulos": [
+              {
+                "id": "8",
+                "versiculos": [
+                  {
+                    "id": "37",
+                    "texto": "Nay, in all these things we are more than conquerors through him that loved us."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "You are Beautiful",
+        "textos": "Ps 27:4 and Ps 96:9",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "27",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "One thing have I desired of the LORD, that will I seek after; that I may dwell in the house of the LORD all the days of my life, to behold the beauty of the LORD, and to enquire in his temple."
+                  }
+                ]
+              },
+              {
+                "id": "96",
+                "versiculos": [
+                  {
+                    "id": "9",
+                    "texto": "O worship the LORD in the beauty of holiness: fear before him, all the earth."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "You are Perfect",
+        "textos": "Matt 5:48 and Heb 7:28",
+        "livros": [
+          {
+            "nome": "Matthew",
+            "capitulos": [
+              {
+                "id": "5",
+                "versiculos": [
+                  {
+                    "id": "48",
+                    "texto": "Be ye therefore perfect, even as your Father which is in heaven is perfect."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Hebrews",
+            "capitulos": [
+              {
+                "id": "7",
+                "versiculos": [
+                  {
+                    "id": "28",
+                    "texto": "For the law maketh men high priests which have infirmity; but the word of the oath, which was since the law, maketh the Son, who is consecrated for evermore."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "You Answer When We Cry Out",
+        "textos": "Ps 57:1-3 and Matt 7:7-8",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "57",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Be merciful unto me, O God, be merciful unto me: for my soul trusteth in thee: yea, in the shadow of thy wings will I make my refuge, until these calamities be overpast."
+                  },
+                  {
+                    "id": "2",
+                    "texto": "I will cry unto God most high; unto God that performeth all things for me."
+                  },
+                  {
+                    "id": "3",
+                    "texto": "He shall send from heaven, and save me from the reproach of him that would swallow me up. Selah. God shall send forth his mercy and his truth."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Matthew",
+            "capitulos": [
+              {
+                "id": "7",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you:"
+                  },
+                  {
+                    "id": "8",
+                    "texto": "For every one that asketh receiveth; and he that seeketh findeth; and to him that knocketh it shall be opened."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "You are Unchangeable",
+        "textos": "Ps 102:25-27 and Heb 13:8",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "102",
+                "versiculos": [
+                  {
+                    "id": "25",
+                    "texto": "Of old hast thou laid the foundation of the earth: and the heavens are the work of thy hands."
+                  },
+                  {
+                    "id": "26",
+                    "texto": "They shall perish, but thou shalt endure: yea, all of them shall wax old like a garment; as a vesture shalt thou change them, and they shall be changed:"
+                  },
+                  {
+                    "id": "27",
+                    "texto": "But thou art the same, and thy years shall have no end."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Hebrews",
+            "capitulos": [
+              {
+                "id": "13",
+                "versiculos": [
+                  {
+                    "id": "8",
+                    "texto": "Jesus Christ the same yesterday, and to day, and for ever."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "You are Forgiving",
+        "textos": "Ps 103:3, 8-12",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "103",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "Who forgiveth all thine iniquities; who healeth all thy diseases;"
+                  },
+                  {
+                    "id": "8",
+                    "texto": "The LORD is merciful and gracious, slow to anger, and plenteous in mercy."
+                  },
+                  {
+                    "id": "9",
+                    "texto": "He will not always chide: neither will he keep his anger for ever."
+                  },
+                  {
+                    "id": "10",
+                    "texto": "He hath not dealt with us after our sins; nor rewarded us according to our iniquities."
+                  },
+                  {
+                    "id": "11",
+                    "texto": "For as the heaven is high above the earth, so great is his mercy toward them that fear him."
+                  },
+                  {
+                    "id": "12",
+                    "texto": "As far as the east is from the west, so far hath he removed our transgressions from us."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "tema": "The Faithfulness of God",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "You are Faithful",
+        "textos": "Lam 3:22-23 and 2 Thess 3:3",
+        "livros": [
+          {
+            "nome": "Lamentations",
+            "capitulos": [
+              {
+                "id": "3",
+                "versiculos": [
+                  {
+                    "id": "22",
+                    "texto": "It is of the LORD'S mercies that we are not consumed, because his compassions fail not."
+                  },
+                  {
+                    "id": "23",
+                    "texto": "They are new every morning: great is thy faithfulness."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Thessalonians",
+            "capitulos": [
+              {
+                "id": "3",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "But the Lord is faithful, who shall stablish you, and keep you from evil."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "You are Powerful",
+        "textos": "Ps 89:7-8 and Jude 24-25",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "89",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "God is greatly to be feared in the assembly of the saints, and to be had in reverence of all them that are about him."
+                  },
+                  {
+                    "id": "8",
+                    "texto": "O LORD God of hosts, who is a strong LORD like unto thee? or to thy faithfulness round about thee?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Jude",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "24",
+                    "texto": "Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy,"
+                  },
+                  {
+                    "id": "25",
+                    "texto": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "You are Health",
+        "textos": "Jer 33:6 and Ps 147:1-3",
+        "livros": [
+          {
+            "nome": "Jeremiah",
+            "capitulos": [
+              {
+                "id": "33",
+                "versiculos": [
+                  {
+                    "id": "6",
+                    "texto": "Behold, I will bring it health and cure, and I will cure them, and will reveal unto them the abundance of peace and truth."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "147",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Praise ye the LORD: for it is good to sing praises unto our God; for it is pleasant; and praise is comely."
+                  },
+                  {
+                    "id": "2",
+                    "texto": "The LORD doth build up Jerusalem: he gathereth together the outcasts of Israel."
+                  },
+                  {
+                    "id": "3",
+                    "texto": "He healeth the broken in heart, and bindeth up their wounds."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "You are Security",
+        "textos": "Job 11:18-19 and Ps 91:4, 14",
+        "livros": [
+          {
+            "nome": "Job",
+            "capitulos": [
+              {
+                "id": "11",
+                "versiculos": [
+                  {
+                    "id": "18",
+                    "texto": "And thou shalt be secure, because there is hope; yea, thou shalt dig about thee, and thou shalt take thy rest in safety."
+                  },
+                  {
+                    "id": "19",
+                    "texto": "Also thou shalt lie down, and none shall make thee afraid; yea, many shall make suit unto thee."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "91",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "He shall cover thee with his feathers, and under his wings shalt thou trust: his truth shall be thy shield and buckler."
+                  },
+                  {
+                    "id": "14",
+                    "texto": "Because he hath set his love upon me, therefore will I deliver him: I will set him on high, because he hath known my name."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "You are Peace",
+        "textos": "Ps 119:165 and Isa 9:6-7",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "119",
+                "versiculos": [
+                  {
+                    "id": "165",
+                    "texto": "Great peace have they which love thy law: and nothing shall offend them."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "9",
+                "versiculos": [
+                  {
+                    "id": "6",
+                    "texto": "For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace."
+                  },
+                  {
+                    "id": "7",
+                    "texto": "Of the increase of his government and peace there shall be no end, upon the throne of David, and upon his kingdom, to order it, and to establish it with judgment and with justice from henceforth even for ever. The zeal of the LORD of hosts will perform this."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "You are Radiant",
+        "textos": "Ps 104:1-4 and Heb 1:3",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "104",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "Bless the LORD, O my soul. O LORD my God, thou art very great; thou art clothed with honour and majesty."
+                  },
+                  {
+                    "id": "2",
+                    "texto": "Who coverest thyself with light as with a garment: who stretchest out the heavens like a curtain:"
+                  },
+                  {
+                    "id": "3",
+                    "texto": "Who layeth the beams of his chambers in the waters: who maketh the clouds his chariot: who walketh upon the wings of the wind:"
+                  },
+                  {
+                    "id": "4",
+                    "texto": "Who maketh his angels spirits; his ministers a flaming fire:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Hebrews",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "You are Upright",
+        "textos": "Ps 92:15 and 2 Tim 4:7-8",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "92",
+                "versiculos": [
+                  {
+                    "id": "15",
+                    "texto": "To shew that the LORD is upright: he is my rock, and there is no unrighteousness in him."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Timothy",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "I have fought a good fight, I have finished my course, I have kept the faith:"
+                  },
+                  {
+                    "id": "8",
+                    "texto": "Henceforth there is laid up for me a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only, but unto all them also that love his appearing."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "tema": "The Mercy of God",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "You are Merciful",
+        "textos": "Titus 3:4-5 and 2 Cor 1:3-4",
+        "livros": [
+          {
+            "nome": "Titus",
+            "capitulos": [
+              {
+                "id": "3",
+                "versiculos": [
+                  {
+                    "id": "4",
+                    "texto": "But after that the kindness and love of God our Saviour toward man appeared,"
+                  },
+                  {
+                    "id": "5",
+                    "texto": "Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost;"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Corinthians",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort;"
+                  },
+                  {
+                    "id": "4",
+                    "texto": "Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "You are Joy",
+        "textos": "Neh 8:10 and Isa 35:10, 61:3",
+        "livros": [
+          {
+            "nome": "Nehemiah",
+            "capitulos": [
+              {
+                "id": "8",
+                "versiculos": [
+                  {
+                    "id": "10",
+                    "texto": "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for this day is holy unto our Lord: neither be ye sorry; for the joy of the LORD is your strength."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "35",
+                "versiculos": [
+                  {
+                    "id": "10",
+                    "texto": "And the ransomed of the LORD shall return, and come to Zion with songs and everlasting joy upon their heads: they shall obtain joy and gladness, and sorrow and sighing shall flee away."
+                  }
+                ]
+              },
+              {
+                "id": "61",
+                "versiculos": [
+                  {
+                    "id": "3",
+                    "texto": "To appoint unto them that mourn in Zion, to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness; that they might be called trees of righteousness, the planting of the LORD, that he might be glorified."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "You are Compassionate",
+        "textos": "Ps 86:5, 15 and James 5:11",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "86",
+                "versiculos": [
+                  {
+                    "id": "5",
+                    "texto": "For thou, Lord, art good, and ready to forgive; and plenteous in mercy unto all them that call upon thee."
+                  },
+                  {
+                    "id": "15",
+                    "texto": "But thou, O LORD, art a God full of compassion, and gracious, longsuffering, and plenteous in mercy and truth."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "James",
+            "capitulos": [
+              {
+                "id": "5",
+                "versiculos": [
+                  {
+                    "id": "11",
+                    "texto": "Behold, we count them happy which endure. Ye have heard of the patience of Job, and have seen the end of the Lord; that the Lord is very pitiful, and of tender mercy."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "You are Longsuffering",
+        "textos": "Exod 34:6 and 2 Pet 3:9",
+        "livros": [
+          {
+            "nome": "Exodus",
+            "capitulos": [
+              {
+                "id": "34",
+                "versiculos": [
+                  {
+                    "id": "6",
+                    "texto": "And the LORD passed by before him, and proclaimed, The LORD, The LORD God, merciful and gracious, longsuffering, and abundant in goodness and truth,"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2 Peter",
+            "capitulos": [
+              {
+                "id": "3",
+                "versiculos": [
+                  {
+                    "id": "9",
+                    "texto": "The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "You are Wonderful",
+        "textos": "Joel 2:26 and Ps 77:13-14",
+        "livros": [
+          {
+            "nome": "Joel",
+            "capitulos": [
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "26",
+                    "texto": "And ye shall eat in plenty, and be satisfied, and praise the name of the LORD your God, that hath dealt wondrously with you: and my people shall never be ashamed."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "77",
+                "versiculos": [
+                  {
+                    "id": "13",
+                    "texto": "Thy way, O God, is in the sanctuary: who is so great a God as our God?"
+                  },
+                  {
+                    "id": "14",
+                    "texto": "Thou art the God that doest wonders: thou hast declared thy strength among the people."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "You are Accessible",
+        "textos": "Matt 11:28-30 and Eph 2:17-18",
+        "livros": [
+          {
+            "nome": "Matthew",
+            "capitulos": [
+              {
+                "id": "11",
+                "versiculos": [
+                  {
+                    "id": "28",
+                    "texto": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+                  },
+                  {
+                    "id": "29",
+                    "texto": "Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls."
+                  },
+                  {
+                    "id": "30",
+                    "texto": "For my yoke is easy, and my burden is light."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Ephesians",
+            "capitulos": [
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "And came and preached peace to you which were afar off, and to them that were nigh."
+                  },
+                  {
+                    "id": "18",
+                    "texto": "For through him we both have access by one Spirit unto the Father."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "You are Sovereign",
+        "textos": "Dan 2:20-22",
+        "livros": [
+          {
+            "nome": "Daniel",
+            "capitulos": [
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "20",
+                    "texto": "Daniel answered and said, Blessed be the name of God for ever and ever: for wisdom and might are his:"
+                  },
+                  {
+                    "id": "21",
+                    "texto": "And he changeth the times and the seasons: he removeth kings, and setteth up kings: he giveth wisdom unto the wise, and knowledge to them that know understanding:"
+                  },
+                  {
+                    "id": "22",
+                    "texto": "He revealeth the deep and secret things: he knoweth what is in the darkness, and the light dwelleth with him."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "tema": "The Integrity of God",
+    "dias": [
+      {
+        "id": 1,
+        "atributo": "You are True",
+        "textos": "John 1:14, 17 and 1 John 5:20",
+        "livros": [
+          {
+            "nome": "John",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "14",
+                    "texto": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth."
+                  },
+                  {
+                    "id": "17",
+                    "texto": "For the law was given by Moses, but grace and truth came by Jesus Christ."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "1 John",
+            "capitulos": [
+              {
+                "id": "5",
+                "versiculos": [
+                  {
+                    "id": "20",
+                    "texto": "And we know that the Son of God is come, and hath given us an understanding, that we may know him that is true, and we are in him that is true, even in his Son Jesus Christ. This is the true God, and eternal life."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "atributo": "You Know All Things",
+        "textos": "Ps 139:1-4, 23-24",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "139",
+                "versiculos": [
+                  {
+                    "id": "1",
+                    "texto": "O LORD, thou hast searched me, and known me."
+                  },
+                  {
+                    "id": "2",
+                    "texto": "Thou knowest my downsitting and mine uprising, thou understandest my thought afar off."
+                  },
+                  {
+                    "id": "3",
+                    "texto": "Thou compassest my path and my lying down, and art acquainted with all my ways."
+                  },
+                  {
+                    "id": "4",
+                    "texto": "For there is not a word in my tongue, but, lo, O LORD, thou knowest it altogether."
+                  },
+                  {
+                    "id": "23",
+                    "texto": "Search me, O God, and know my heart: try me, and know my thoughts:"
+                  },
+                  {
+                    "id": "24",
+                    "texto": "And see if there be any wicked way in me, and lead me in the way everlasting."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "atributo": "You are Counselor",
+        "textos": "Isa 9:6 and Ps 32:8",
+        "livros": [
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "9",
+                "versiculos": [
+                  {
+                    "id": "6",
+                    "texto": "For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "32",
+                "versiculos": [
+                  {
+                    "id": "8",
+                    "texto": "I will instruct thee and teach thee in the way which thou shalt go: I will guide thee with mine eye."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "atributo": "You are Complete",
+        "textos": "Col 1:17-19 and Col 2:9-10",
+        "livros": [
+          {
+            "nome": "Colossians",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "17",
+                    "texto": "And he is before all things, and by him all things consist."
+                  },
+                  {
+                    "id": "18",
+                    "texto": "And he is the head of the body, the church: who is the beginning, the firstborn from the dead; that in all things he might have the preeminence."
+                  },
+                  {
+                    "id": "19",
+                    "texto": "For it pleased the Father that in him should all fulness dwell;"
+                  }
+                ]
+              },
+              {
+                "id": "2",
+                "versiculos": [
+                  {
+                    "id": "9",
+                    "texto": "For in him dwelleth all the fulness of the Godhead bodily."
+                  },
+                  {
+                    "id": "10",
+                    "texto": "And ye are complete in him, which is the head of all principality and power:"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "atributo": "You are Full of Grace",
+        "textos": "Heb 4:16 and 1 Pet 4:10",
+        "livros": [
+          {
+            "nome": "Hebrews",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "16",
+                    "texto": "Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "1 Peter",
+            "capitulos": [
+              {
+                "id": "4",
+                "versiculos": [
+                  {
+                    "id": "10",
+                    "texto": "As every man hath received the gift, even so minister the same one to another, as good stewards of the manifold grace of God."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "atributo": "You are Victorious",
+        "textos": "Ps 60:11-12 and Isa 54:14-17",
+        "livros": [
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "60",
+                "versiculos": [
+                  {
+                    "id": "11",
+                    "texto": "Give us help from trouble: for vain is the help of man."
+                  },
+                  {
+                    "id": "12",
+                    "texto": "Through God we shall do valiantly: for he it is that shall tread down our enemies."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Isaiah",
+            "capitulos": [
+              {
+                "id": "54",
+                "versiculos": [
+                  {
+                    "id": "14",
+                    "texto": "In righteousness shalt thou be established: thou shalt be far from oppression; for thou shalt not fear: and from terror; for it shall not come near thee."
+                  },
+                  {
+                    "id": "15",
+                    "texto": "Behold, they shall surely gather together, but not by me: whosoever shall gather together against thee shall fall for thy sake."
+                  },
+                  {
+                    "id": "16",
+                    "texto": "Behold, I have created the smith that bloweth the coals in the fire, and that bringeth forth an instrument for his work; and I have created the waster to destroy."
+                  },
+                  {
+                    "id": "17",
+                    "texto": "No weapon that is formed against thee shall prosper; and every tongue that shall rise against thee in judgment thou shalt condemn. This is the heritage of the servants of the LORD, and their righteousness is of me, saith the LORD."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "atributo": "You are Good",
+        "textos": "Nahum 1:7, Ps 119:68 and Ps 145:9",
+        "livros": [
+          {
+            "nome": "Nahum",
+            "capitulos": [
+              {
+                "id": "1",
+                "versiculos": [
+                  {
+                    "id": "7",
+                    "texto": "The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Psalms",
+            "capitulos": [
+              {
+                "id": "119",
+                "versiculos": [
+                  {
+                    "id": "68",
+                    "texto": "Thou art good, and doest good; teach me thy statutes."
+                  }
+                ]
+              },
+              {
+                "id": "145",
+                "versiculos": [
+                  {
+                    "id": "9",
+                    "texto": "The LORD is good to all: and his tender mercies are over all his works."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
