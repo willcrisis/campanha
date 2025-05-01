@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script>
+      function getMobileOperatingSystem() {
+        const userAgent =
+          navigator.userAgent || navigator.vendor || window.opera;
+
+        if (/android/i.test(userAgent)) {
+          return "android";
+        }
+
+        // iOS detection from: http://stackoverflow.com/a/9039885/177710
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+          return "ios";
+        }
+        i;
+        return "unknown";
+      }
+    </script>
+    <script>
+      function loadStorePage() {
+        const os = getMobileOperatingSystem();
+        console.log(os);
+        if (os == "android") {
+          window.location.href =
+            "https://play.google.com/store/apps/details?id=com.willcrisis.campanha";
+        } else if (os == "ios") {
+          window.location.href =
+            "https://apps.apple.com/br/app/campanha-de-louvor/id6744073686";
+        }
+      }
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praise Campaign</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body onload="loadStorePage()">
+    <div class="container centered">
+      <img src="../logo.png" alt="Praise Campaign Logo" class="logo" />
+    </div>
+    <header>
+      <div class="container">
+        <h1>Praise Campaign</h1>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Praise God for His Attributes</h1>
+        <p>
+          This is the Praise Campaign of the Monte da Santidade do Senhor church in
+          Goiânia-GO. This app will help you meditate systematically on the different
+          attributes and characteristics of God, with biblical texts for each day of the journey.
+        </p>
+        <div id="downloads">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.willcrisis.campanha&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+          >
+            <img
+              alt="Get it on Google Play"
+              class="store-badge-play"
+              src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+            />
+          </a>
+
+          <a
+            href="https://apps.apple.com/br/app/campanha-de-louvor/id6744073686?itscg=30200&itsct=apps_box_badge&mttnsubad=6744073686"
+            style="display: inline-block"
+          >
+            <img
+              src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1743552000"
+              alt="Download on the App Store"
+              class="store-badge-apple"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>What is the Praise Campaign?</h2>
+        <p>
+          The Praise Campaign is a campaign created by the Monte da Santidade do Senhor church
+          that focuses on systematically praising God for His attributes. The campaign follows
+          a structured approach that spans 7 weeks, with each week dedicated to a specific
+          aspect of God's character.
+        </p>
+        <p>
+          When the 7-week cycle is completed, it automatically restarts, becoming a continuous
+          campaign of praise and worship.
+        </p>
+      </div>
+    </section>
+
+    <section class="week-structure">
+      <div class="container">
+        <h2>Campaign Structure</h2>
+        <p class="center-paragraph">
+          The campaign is organized into 7 thematic weeks, each exploring a facet of God's character:
+        </p>
+
+        <div class="week-list">
+          <div class="week-card">
+            <h3>Week 1</h3>
+            <p>The Love of God</p>
+          </div>
+          <div class="week-card">
+            <h3>Week 2</h3>
+            <p>The Holiness of God</p>
+          </div>
+          <div class="week-card">
+            <h3>Week 3</h3>
+            <p>The Majesty of God</p>
+          </div>
+          <div class="week-card">
+            <h3>Week 4</h3>
+            <p>The Justice of God</p>
+          </div>
+          <div class="week-card">
+            <h3>Week 5</h3>
+            <p>The Faithfulness of God</p>
+          </div>
+          <div class="week-card">
+            <h3>Week 6</h3>
+            <p>The Mercy of God</p>
+          </div>
+          <div class="week-card">
+            <h3>Week 7</h3>
+            <p>The Integrity of God</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2>App Features</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3>Automated</h3>
+            <p>
+              The app automatically determines which week and day of the campaign
+              corresponds to the current date.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Biblical Texts</h3>
+            <p>
+              Displays the theme, attribute, and appropriate biblical verses for
+              daily meditation.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Easy to Use</h3>
+            <p>
+              Intuitive interface that allows you to follow the campaign in a
+              simple and practical way.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Shareable</h3>
+            <p>
+              Easily share the day's theme and verses with friends and family.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>Start your praise journey today</h2>
+        <p>
+          The Praise Campaign app is available for Android and iOS devices.
+          Download now and start meditating daily on God's attributes.
+        </p>
+        <a href="#downloads" class="cta-button">Download App</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Praise Campaign. All rights reserved.</p>
+        <p class="margin-top">
+          An app developed to help Christians praise God for His attributes.
+        </p>
+        <p class="margin-top">
+          <a href="privacy-policy.html">Privacy Policy</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html> 
