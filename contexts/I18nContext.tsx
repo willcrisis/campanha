@@ -10,14 +10,26 @@ import { Menu } from 'react-native-paper';
 import { TouchableOpacity } from 'react-native';
 import InputLabel from '@/components/inputs/InputLabel';
 import InputView from '@/components/inputs/InputView';
+import { Semana } from './DataContext';
 
-const I18nContext = createContext({
+export type TranslateFunction = (key: string, params?: Record<string, string>) => string;
+export type OrdinalFunction = (number: string | number) => string;
+export type Data = Semana[];
+
+const I18nContext = createContext<{
+  locale: string;
+  setLocale: (locale: string) => void;
+  data: Data;
+  translations: any;
+  translate: TranslateFunction;
+  ordinal: OrdinalFunction;
+}>({
   locale: 'pt-br',
   setLocale: (locale: string) => {},
-  data: ptBR,
+  data: ptBR as unknown as Data,
   translations: ptBRTranslations,
-  translate: (key: string, params?: Record<string, string>) => key,
-  ordinal: (number: string | number) => '' as string,
+  translate: (key: string, params?: Record<string, string>) => key as string,
+  ordinal: (number: string | number) => '',
 });
 
 const ordinalEn = (number: string | number) => {
@@ -42,13 +54,13 @@ const ordinalPt = (number: string | number) => `${number}ª`;
 
 const english = {
   ordinal: ordinalEn,
-  data: enUS,
+  data: enUS as unknown as Data,
   translations: enUSTranslations,
 };
 
 const portuguese = {
   ordinal: ordinalPt,
-  data: ptBR,
+  data: ptBR as unknown as Data,
   translations: ptBRTranslations,
 };
 
@@ -63,8 +75,8 @@ const I18nProvider = ({ children }: PropsWithChildren<unknown>) => {
     return portuguese;
   }, [locale]);
 
-  const translate = useCallback(
-    (key: string, params?: Record<string, string>) => {
+  const translate = useCallback<TranslateFunction>(
+    (key, params?) => {
       const translation = get(translations, key);
       if (!translation) {
         return key;

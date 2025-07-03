@@ -1,14 +1,15 @@
 import { APP_URL } from '@/constants';
-import { Dia, Semana, useData, WEEK_DAY_MAP } from '@/contexts/DataContext';
+import { Dia, Semana, useData } from '@/contexts/DataContext';
+import { OrdinalFunction, TranslateFunction, useI18n } from '@/contexts/I18nContext';
 import { Share } from 'react-native';
 
-const buildMessage = (week: Semana, day: Dia) =>
-  `Campanha de Louvor
+const buildMessage = (week: Semana, day: Dia, translate: TranslateFunction, ordinal: OrdinalFunction) =>
+  `${translate('app.name')}
 
-${week.id}ª Semana: ${week.tema}
+${translate('components.fullDay.week', { week: ordinal(week.id), theme: week.tema })}
 
-${WEEK_DAY_MAP[Number(day.id)]}
-Deus Pai, ${day.atributo}
+${translate(`weekDays.${day.id}`)}
+${translate('components.fullDay.attribute', { attribute: day.atributo })}
 
 ${day.textos}
 
@@ -17,23 +18,24 @@ ${day.livros
     (book) => `${book.nome}
 ${book.capitulos
   .map(
-    (chapter) => `Capítulo ${chapter.id}
+    (chapter) => `${translate('components.fullDay.chapter', { chapter: chapter.id })}
 ${chapter.versiculos.map((verse) => `${verse.id} ${verse.texto}`).join('\n')}`,
   )
   .join('\n')}
 `,
   )
   .join('\n')}
-Baixe o app: ${APP_URL}
+${translate('components.share.download', { url: APP_URL })}
 `.trim();
 
 export const useShare = () => {
   const { allData } = useData();
+  const { translate, ordinal } = useI18n();
   const share = async (weekId: number, dayId: number) => {
     const week = allData[weekId - 1] as Semana;
     const day = week.dias[dayId - 1] as Dia;
 
-    const message = buildMessage(week, day);
+    const message = buildMessage(week, day, translate, ordinal);
 
     try {
       await Share.share({ message });

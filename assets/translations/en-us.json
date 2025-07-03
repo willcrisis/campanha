@@ -1,4 +1,5 @@
 {
+  "app.name": "Praise Campaign",
   "language.name": "English",
   "weekDays": {
     "1": "Sunday",
@@ -44,6 +45,9 @@
     },
     "verse": {
       "attribute": "{{week}} Week - {{theme}} - Father God, {{attribute}}"
+    },
+    "share": {
+      "download": "Download the app: {{url}}"
     }
   }
 }

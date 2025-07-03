@@ -1,4 +1,5 @@
 {
+  "app.name": "Campanha de Louvor",
   "language.name": "Português (Brasil)",
   "weekDays": {
     "1": "Domingo",
@@ -44,6 +45,9 @@
     },
     "verse": {
       "attribute": "{{week}} Semana - {{theme}} - Deus Pai, {{attribute}}"
+    },
+    "share": {
+      "download": "Baixe o app: {{url}}"
     }
   }
 }

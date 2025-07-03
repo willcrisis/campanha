@@ -113,7 +113,7 @@ const DataContextProvider = ({ children }: PropsWithChildren<unknown>) => {
         ),
       ),
     ),
-  );
+  ) as unknown as SearchableVersiculo[];
 
   if (!loaded) {
     return (
