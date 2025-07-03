@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# Praise Campaign
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The Praise Campaign is a campaign created by the Mount of the Lord's Holiness Church with the goal of exalting God's attributes. Through a continuous cycle of 7 weeks, each dedicated to a specific dimension of the divine character, you will have daily access to carefully selected biblical texts to enrich your spiritual life.
 
-## Get started
+## Main Features:
 
-1. Install dependencies
+### Thematic Organization:
+- 7 weeks of meditations, each focused on a specific theme: Love, Holiness, Majesty, Justice, Faithfulness, Mercy, and God's Integrity
+- Each day highlights a different divine attribute with related biblical texts
 
-   ```bash
-   npm install
-   ```
+### Ease of Use:
+- Intuitive interface with elegant and minimalist design
+- The app automatically calculates which week and day of the campaign you are in
+- Simple navigation between days and weeks
 
-2. Start the app
+### Complete Biblical Content:
+- Complete biblical texts for each daily meditation
+- Biblical references organized by book, chapter, and verse
 
-   ```bash
-    npx expo start
-   ```
+### Customizable Notifications:
+- Configure daily reminders to not miss your meditation
+- Choose the ideal time to receive your notifications
 
-In the output, you'll find options to open the app in a
+### Sharing:
+- Easily share daily meditations with friends and family
+- Integrated sharing function for all messaging platforms
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Advanced Search:
+- Find specific verses or themes within the campaign
+- Search by keywords to discover relevant passages
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Accessibility:
+- Control text size for easier reading
+- Interface adapted for better reading experience
 
-## Get a fresh project
+The Praise Campaign is a powerful tool to enrich your devotional life, helping you to know God's attributes more deeply and grow in your faith in a structured and continuous way. Whether you are a new convert or a long-time Christian, this app offers valuable resources to deepen your relationship with God through regular biblical meditation.
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Download now and begin your journey of discovering divine attributes!
