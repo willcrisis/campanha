@@ -1,0 +1,10 @@
+{
+  "3.1.0": {
+    "title": "What's New in Version 3.2.0",
+    "items": [
+      "Now you will see the updates in this window whenever there is an update",
+      "Fixed share functionality",
+      "The campaign is now also available in English. Change the language in the settings."
+    ]
+  }
+}

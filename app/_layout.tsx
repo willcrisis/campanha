@@ -9,6 +9,8 @@ import NotificationProvider from '@/contexts/NotificationContext';
 import { pt, registerTranslation } from 'react-native-paper-dates';
 import AccessibilityProvider from '@/contexts/AccessibilityContext';
 import I18nProvider from '@/contexts/I18nContext';
+import WhatsNewProvider from '@/contexts/WhatsNewContext';
+import WhatsNewDialog from '@/components/WhatsNewDialog';
 registerTranslation('pt', pt);
 
 SplashScreen.preventAutoHideAsync();
@@ -44,7 +46,10 @@ export default function RootLayout() {
         <DataContextProvider>
           <NotificationProvider>
             <AccessibilityProvider>
-              <Stack screenOptions={{ headerShown: false }} />
+              <WhatsNewProvider>
+                <WhatsNewDialog />
+                <Stack screenOptions={{ headerShown: false }} />
+              </WhatsNewProvider>
             </AccessibilityProvider>
           </NotificationProvider>
         </DataContextProvider>
